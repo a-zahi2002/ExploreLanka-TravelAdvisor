@@ -1,0 +1,38 @@
+/* Page component styles */
+
+.page {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #000000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .page h1 {
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .page button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .page button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Styles for each page */
+  
+  .page-1, .page-2, .page-3, .page-4, .page-5, .page-6, .page-7, .page-8, .page-9 {
+    /* Add any additional styles here that are specific to each page */
+  }
+  
+  /* You can also add additional styles for specific pages if needed */

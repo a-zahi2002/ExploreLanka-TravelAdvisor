@@ -1,0 +1,26 @@
+.tile {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .tile img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .tile .description {
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+  }
+
+  .tile {
+    cursor: pointer;
+  }

@@ -1,0 +1,15 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "strict": true,       // Enables strict type checking options
+    "lib": ["ES2022"],    // Corrected from "ES2023" to "ES2022" or use "ESNext" if you need the latest features
+    "moduleResolution": "node", // Optionally add module resolution
+    "target": "ES2022",   // Align target with the lib version
+    "esModuleInterop": true, // To handle default imports of CommonJS modules
+    "resolveJsonModule": true // If you are working with JSON modules
+  }
+}

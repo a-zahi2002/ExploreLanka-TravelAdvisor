@@ -1,0 +1,18 @@
+.tile-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 1fr)); /* Maximum 3 columns */
+  gap: 10px;
+  padding: 10px; /* Optional padding around the grid */
+}
+
+@media (max-width: 768px) {
+  .tile-grid {
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Adjust for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .tile-grid {
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Single-column on very small screens */
+  }
+}
