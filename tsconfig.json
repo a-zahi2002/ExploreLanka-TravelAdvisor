@@ -10,6 +10,9 @@
     "moduleResolution": "node", // Optionally add module resolution
     "target": "ES2022",   // Align target with the lib version
     "esModuleInterop": true, // To handle default imports of CommonJS modules
-    "resolveJsonModule": true // If you are working with JSON modules
+    "resolveJsonModule": true, // If you are working with JSON modules
+    "jsx": "react-jsx", // Enable JSX support for React
+    "allowSyntheticDefaultImports": true, // Allow importing modules without default exports
+    "forceConsistentCasingInFileNames": true // Enforce consistent casing in file names
   }
 }
