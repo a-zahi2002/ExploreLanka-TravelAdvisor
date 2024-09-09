@@ -2,9 +2,9 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import "./TileGrid1.css";
 import Tile from "../Tile";
-import Page1sub1 from "./Pages_sub1/Page1Sub1";
-import Page1sub2 from "./Pages_sub1/Page1sub2";
-import Page1sub3 from "./Pages_sub1/Page1sub3";
+import Page1Sub1 from "./Pages_sub1/Page1Sub1";
+import Page1Sub2 from "./Pages_sub1/Page1Sub2";
+import Page1Sub3 from "./Pages_sub1/Page1Sub3";
 
 interface TileData {
   image: string;
@@ -16,17 +16,17 @@ const tileData: TileData[] = [
   {
     image: "https://picsum.photos/200/300",
     description: "Tile 1",
-    page: "/page1sub1",
+    page: "/Page1Sub1",
   },
   {
     image: "https://picsum.photos/200/300",
     description: "Tile 2",
-    page: "/page1sub2",
+    page: "/Page1Sub2",
   },
   {
     image: "https://picsum.photos/200/300",
     description: "Tile 3",
-    page: "/page1sub3",
+    page: "/Page1Sub3",
   },
   // Add more tile data as needed
 ];
@@ -49,9 +49,9 @@ const TileGrid1: React.FC = () => {
           </div>
         }
       />
-      <Route path="/page1sub1" element={<Page1sub1 />} />
-      <Route path="/page1sub2" element={<Page1sub2 />} />
-      <Route path="/page1sub3" element={<Page1sub3 />} />
+      <Route path="/page1Sub1" element={<Page1Sub1 />} />
+      <Route path="/page1Sub2" element={<Page1Sub2 />} />
+      <Route path="/page1Sub3" element={<Page1Sub3 />} />
       <Route path="*" element={<div>404: Page Not Found</div>} />
     </Routes>
   );

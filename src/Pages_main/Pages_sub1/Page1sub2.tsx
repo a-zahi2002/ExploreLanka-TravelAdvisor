@@ -1,6 +1,6 @@
 import React from "react";
 
-const page1sub2: React.FC = () => {
+const Page1Sub2: React.FC = () => {
   return (
     <div className="pages_sub1">
       <h1>Page 12</h1>
@@ -9,4 +9,4 @@ const page1sub2: React.FC = () => {
   );
 };
 
-export default page1sub2;
+export default Page1Sub2;
