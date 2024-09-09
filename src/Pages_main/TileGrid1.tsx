@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import "./TileGrid1.css";
 import Tile from "../Tile";
-import Page1sub1 from "./Pages_sub1/Page1sub1";
+import Page1sub1 from "./Pages_sub1/Page1Sub1";
 import Page1sub2 from "./Pages_sub1/Page1sub2";
 import Page1sub3 from "./Pages_sub1/Page1sub3";
 
