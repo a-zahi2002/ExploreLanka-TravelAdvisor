@@ -1,13 +1,15 @@
 import React from "react";
-import "./Page.css";
+import "./Pages_sub1.css";
 
-const Page1sub1: React.FC = () => {
+const page1sub1: React.FC = () => {
   return (
-    <div className="page">
-      <h1>Page 11</h1>
-      <button onClick={() => window.history.back()}>Close</button>
+    <div className="pages_sub1">
+      <div className="content-container">
+        <h1>Page1 Sub1</h1>
+        <button onClick={() => window.history.back()}>Close</button>
+      </div>
     </div>
   );
 };
 
-export default Page1sub1;
+export default page1sub1;
