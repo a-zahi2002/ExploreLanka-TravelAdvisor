@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import "./TileGrid1.css";
 import Tile from "../Tile";
 import Page1sub1 from "./Pages_sub1/Page1sub1";
@@ -33,29 +33,27 @@ const tileData: TileData[] = [
 
 const TileGrid1: React.FC = () => {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <div className="tile-grid">
-              {tileData.map((tile, index) => (
-                <Tile
-                  key={index}
-                  image={tile.image}
-                  description={tile.description}
-                  page={tile.page}
-                />
-              ))}
-            </div>
-          }
-        />
-        <Route path="/page1sub1" element={<Page1sub1 />} />
-        <Route path="/page1sub2" element={<Page1sub2 />} />
-        <Route path="/page1sub3" element={<Page1sub3 />} />
-        <Route path="*" element={<div>404: Page Not Found</div>} />
-      </Routes>
-    </BrowserRouter>
+    <Routes>
+      <Route
+        path="/"
+        element={
+          <div className="tile-grid">
+            {tileData.map((tile, index) => (
+              <Tile
+                key={index}
+                image={tile.image}
+                description={tile.description}
+                page={tile.page}
+              />
+            ))}
+          </div>
+        }
+      />
+      <Route path="/page1sub1" element={<Page1sub1 />} />
+      <Route path="/page1sub2" element={<Page1sub2 />} />
+      <Route path="/page1sub3" element={<Page1sub3 />} />
+      <Route path="*" element={<div>404: Page Not Found</div>} />
+    </Routes>
   );
 };
 
