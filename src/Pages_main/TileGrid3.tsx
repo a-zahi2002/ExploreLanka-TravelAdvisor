@@ -2,9 +2,9 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import "./TileGrid1.css";
 import Tile from "../Tile";
-import Page1Sub1 from "../Pages_main/Pages_sub1/Page1Sub1";
-import Page1Sub2 from "../Pages_main/Pages_sub1/Page1Sub2";
-import Page1Sub3 from "../Pages_main/Pages_sub1/Page1Sub3";
+import Page3Sub1 from "./Pages_sub3/Page3Sub1";
+import Page3Sub2 from "./Pages_sub3/Page3Sub2";
+import Page3Sub3 from "./Pages_sub3/Page3Sub3";
 
 interface TileData {
   image: string;
@@ -16,22 +16,22 @@ const tileData: TileData[] = [
   {
     image: "https://picsum.photos/200/300",
     description: "Tile 1",
-    page: "Page1Sub1", // Note: Removed the leading '/'
+    page: "Page3Sub1", // Note: Removed the leading '/'
   },
   {
     image: "https://picsum.photos/200/300",
     description: "Tile 2",
-    page: "Page1Sub2", // Note: Removed the leading '/'
+    page: "Page3Sub2", // Note: Removed the leading '/'
   },
   {
     image: "https://picsum.photos/200/300",
     description: "Tile 3",
-    page: "Page1Sub3", // Note: Removed the leading '/'
+    page: "Page3Sub3", // Note: Removed the leading '/'
   },
   // Add more tile data as needed
 ];
 
-const TileGrid1: React.FC = () => {
+const TileGrid3: React.FC = () => {
   return (
     <div>
       {/* Main tile grid for subpages */}
@@ -48,12 +48,12 @@ const TileGrid1: React.FC = () => {
 
       {/* Routes for the subpages */}
       <Routes>
-        <Route path="Page1Sub1" element={<Page1Sub1 />} />
-        <Route path="Page1Sub2" element={<Page1Sub2 />} />
-        <Route path="Page1Sub3" element={<Page1Sub3 />} />
+        <Route path="Page3Sub1" element={<Page3Sub1 />} />
+        <Route path="Page3Sub2" element={<Page3Sub2 />} />
+        <Route path="Page3Sub3" element={<Page3Sub3 />} />
       </Routes>
     </div>
   );
 };
 
-export default TileGrid1;
+export default TileGrid3;
