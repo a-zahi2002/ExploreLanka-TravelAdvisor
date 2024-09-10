@@ -12,13 +12,7 @@ import Page7 from "./Pages_main/Page7";
 import Page8 from "./Pages_main/Page8";
 import Page9 from "./Pages_main/Page9";
 
-interface TileData {
-  image: string;
-  description: string;
-  page: string; // Add a new property to store the page URL
-}
-
-const tileData: TileData[] = [
+const tileData = [
   {
     image: "https://picsum.photos/200/300",
     description: "Tile 1",
@@ -85,15 +79,16 @@ const TileGrid: React.FC = () => {
             </div>
           }
         />
-        <Route path="/page1" element={<Page1 />} />
-        <Route path="/page2" element={<Page2 />} />
-        <Route path="/page3" element={<Page3 />} />
-        <Route path="/page4" element={<Page4 />} />
-        <Route path="/page5" element={<Page5 />} />
-        <Route path="/page6" element={<Page6 />} />
-        <Route path="/page7" element={<Page7 />} />
-        <Route path="/page8" element={<Page8 />} />
-        <Route path="/page9" element={<Page9 />} />
+        {/* Use * to allow nested routing */}
+        <Route path="/page1/*" element={<Page1 />} />
+        <Route path="/page2/*" element={<Page2 />} />
+        <Route path="/page3/*" element={<Page3 />} />
+        <Route path="/page4/*" element={<Page4 />} />
+        <Route path="/page5/*" element={<Page5 />} />
+        <Route path="/page6/*" element={<Page6 />} />
+        <Route path="/page7/*" element={<Page7 />} />
+        <Route path="/page8/*" element={<Page8 />} />
+        <Route path="/page9/*" element={<Page9 />} />
       </Routes>
     </BrowserRouter>
   );
