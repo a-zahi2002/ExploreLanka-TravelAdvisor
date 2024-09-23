@@ -55,7 +55,7 @@ const tileData = [
   },
   {
     image: "https://picsum.photos/200/300",
-    description: "Tile 9",
+    description: "Western Province",
     page: "/page9",
   },
 ];
