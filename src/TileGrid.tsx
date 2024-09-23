@@ -15,7 +15,7 @@ import Page9 from "./Pages_main/Page9";
 const tileData = [
   {
     image: "https://picsum.photos/200/300",
-    description: "Tile 1",
+    description: "Sabaragamuwa Province",
     page: "/page1",
   },
   {
