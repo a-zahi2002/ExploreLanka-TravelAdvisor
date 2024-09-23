@@ -1,10 +1,17 @@
 import React from "react";
+import "./Page.css";
+import TileGrid5 from "./TileGrid5";
+import { useNavigate } from "react-router-dom";
 
 const Page5: React.FC = () => {
+  const navigate = useNavigate(); // React Router's useNavigate hook
+
   return (
     <div className="page">
       <h1>Page 5</h1>
-      <button onClick={() => window.history.back()}>Close</button>
+      <TileGrid5 />
+      <button onClick={() => navigate(-1)}>Close</button>{" "}
+      {/* Better for navigating back */}
     </div>
   );
 };
