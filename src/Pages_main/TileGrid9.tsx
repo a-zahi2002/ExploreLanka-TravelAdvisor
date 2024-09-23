@@ -123,11 +123,6 @@ const TileGrid9: React.FC = () => {
         <Route path="Page9Sub7" element={<Page9Sub7 />} />
         <Route path="Page9Sub8" element={<Page9Sub8 />} />
         <Route path="Page9Sub9" element={<Page9Sub9 />} />
-
-
-
-
-
       </Routes>
     </div>
   );

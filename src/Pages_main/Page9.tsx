@@ -1,5 +1,5 @@
 import React from "react";
-import "./Page.css";
+import "./Page.css"; // Main Page CSS
 import TileGrid9 from "./TileGrid9";
 import { useNavigate } from "react-router-dom";
 
@@ -10,8 +10,9 @@ const Page9: React.FC = () => {
     <div className="page">
       <h1>WESTERN PROVINCE</h1>
       <TileGrid9 />
-      <button onClick={() => navigate(-1)}>Close</button>{" "}
-      {/* Better for navigating back */}
+      {/* Button to navigate to subpage */}
+      <button onClick={() => navigate("/page9/sub1")}>Go to Sub Page</button>
+      <button onClick={() => navigate(-1)}>Close</button> {/* Navigate Back */}
     </div>
   );
 };
