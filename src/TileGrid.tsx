@@ -15,7 +15,7 @@ import Page9 from "./Pages_main/Page9";
 const tileData = [
   {
     image: "https://picsum.photos/200/300",
-    description: "Tile 1",
+    description: "Sabaragamuwa Province",
     page: "/page1",
   },
   {
@@ -55,7 +55,7 @@ const tileData = [
   },
   {
     image: "https://picsum.photos/200/300",
-    description: "Tile 9",
+    description: "Western Province",
     page: "/page9",
   },
 ];
