@@ -1,4 +1,4 @@
-/* Page component styles */
+
 
 .page {
   max-width: 1000px;
@@ -7,8 +7,7 @@
   background-color: #fff;
   border: 1px solid #000000;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  position: relative;
-  z-index: 1; /* Lower than the subpage */
+  overflow-y: auto;
 }
 
 .page h1 {

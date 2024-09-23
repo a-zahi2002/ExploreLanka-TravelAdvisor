@@ -3,19 +3,18 @@ import { Routes, Route } from "react-router-dom";
 import "./TileGrid1.css";
 import Tile from "../Tile";
 
-import Page1Sub1 from "../Pages_main/Pages_sub1/Page1Sub1";
-import Page1Sub2 from "../Pages_main/Pages_sub1/Page1Sub2";
-import Page1Sub3 from "../Pages_main/Pages_sub1/Page1Sub3";
-import Page1Sub4 from "../Pages_main/Pages_sub1/Page1Sub4";
-import Page1Sub5 from "../Pages_main/Pages_sub1/Page1Sub5";
+import Page1Sub1 from "../Pages_main/Pages_sub1/Page1sub1";
+import Page1Sub2 from "../Pages_main/Pages_sub1/Page1sub2";
+import Page1Sub3 from "../Pages_main/Pages_sub1/Page1sub3";
+import Page1Sub4 from "../Pages_main/Pages_sub1/Page1sub4";
+import Page1Sub5 from "../Pages_main/Pages_sub1/Page1sub5";
 import Page1Sub6 from "../Pages_main/Pages_sub1/Page1Sub6";
-import Page1Sub7 from "../Pages_main/Pages_sub1/Page1Sub7";
-import Page1Sub8 from "../Pages_main/Pages_sub1/Page1Sub8";
-import Page1Sub9 from "../Pages_main/Pages_sub1/Page1Sub9";
-import Page1Sub10 from "../Pages_main/Pages_sub1/Page1Sub10";
-import Page1Sub11 from "../Pages_main/Pages_sub1/Page1Sub11";
-import Page1Sub12 from "../Pages_main/Pages_sub1/Page1Sub12";
-
+import Page1Sub7 from "../Pages_main/Pages_sub1/Page1sub7";
+import Page1Sub8 from "../Pages_main/Pages_sub1/Page1sub8";
+import Page1Sub9 from "../Pages_main/Pages_sub1/Page1sub9";
+import Page1Sub10 from "../Pages_main/Pages_sub1/Page1sub10";
+import Page1Sub11 from "../Pages_main/Pages_sub1/Page1sub11";
+import Page1Sub12 from "../Pages_main/Pages_sub1/Page1sub12";
 
 interface TileData {
   image: string;
@@ -116,8 +115,6 @@ const TileGrid1: React.FC = () => {
         <Route path="Page1Sub10" element={<Page1Sub10 />} />
         <Route path="Page1Sub11" element={<Page1Sub11 />} />
         <Route path="Page1Sub12" element={<Page1Sub12 />} />
-    
-
       </Routes>
     </div>
   );

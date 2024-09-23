@@ -10,8 +10,6 @@ const Page9: React.FC = () => {
     <div className="page">
       <h1>WESTERN PROVINCE</h1>
       <TileGrid9 />
-      {/* Button to navigate to subpage */}
-      <button onClick={() => navigate("/page9/sub1")}>Go to Sub Page</button>
       <button onClick={() => navigate(-1)}>Close</button> {/* Navigate Back */}
     </div>
   );
