@@ -11,6 +11,12 @@ import Page9Sub6 from "./Pages_sub9/Page9Sub6";
 import Page9Sub7 from "./Pages_sub9/Page9Sub7";
 import Page9Sub8 from "./Pages_sub9/Page9Sub8";
 import Page9Sub9 from "./Pages_sub9/Page9Sub9";
+import Page9Sub10 from "./Pages_sub9/Page9Sub10";
+import Page9Sub11 from "./Pages_sub9/Page9Sub11";
+import Page9Sub12 from "./Pages_sub9/Page9Sub12";
+import Page9Sub13 from "./Pages_sub9/Page9Sub13";
+import Page9Sub14 from "./Pages_sub9/Page9Sub14";
+import Page9Sub15 from "./Pages_sub9/Page9Sub15";
 
 interface TileData {
   image: string;
@@ -31,7 +37,7 @@ const tileData: TileData[] = [
   },
   {
     image: "src/assets/viharamaha devi park.jpg",
-    description: "Vihara maha devi Park",
+    description: "Vihara Maha Devi Park",
     page: "Page9Sub3", // Note: Removed the leading '/'
   },
   {
@@ -67,32 +73,32 @@ const tileData: TileData[] = [
   {
     image: "src/assets/Sri-Kailawasanathan1.jpg",
     description: "Temple of Sri Kailawasanathan Swami Devasthanam Kovil",
-    page: "Page9Sub3", // Note: Removed the leading '/'
+    page: "Page9Sub10", // Note: Removed the leading '/'
   },
   {
     image: "src/assets/the-old-colombo-dutch.jpg",
     description: "Dutch Hospital Shopping Precinct",
-    page: "Page9Sub3", // Note: Removed the leading '/'
+    page: "Page9Sub11", // Note: Removed the leading '/'
   },
   {
     image: "src/assets/brief garden.webp",
     description: "Brief Garden",
-    page: "Page9Sub3", // Note: Removed the leading '/'
+    page: "Page9Sub12", // Note: Removed the leading '/'
   },
   {
     image: "src/assets/ella falls.webp",
-    description: "Ella Falls",
-    page: "Page9Sub3", // Note: Removed the leading '/'
+    description: "Alagiyawanna Ella Falls",
+    page: "Page9Sub13", // Note: Removed the leading '/'
   },
   {
     image: "src/assets/Arcade-at-Independence-Square.png",
     description: "Arcade Independence Square",
-    page: "Page9Sub3", // Note: Removed the leading '/'
+    page: "Page9Sub14", // Note: Removed the leading '/'
   },
   {
     image: "src/assets/Bandiyamulla Tombstone.jpeg",
     description: "Bandiyamulla Tombstone",
-    page: "Page9Sub3", // Note: Removed the leading '/'
+    page: "Page9Sub15", // Note: Removed the leading '/'
   },
   // Add more tile data as needed
 ];
@@ -123,8 +129,12 @@ const TileGrid9: React.FC = () => {
         <Route path="Page9Sub7" element={<Page9Sub7 />} />
         <Route path="Page9Sub8" element={<Page9Sub8 />} />
         <Route path="Page9Sub9" element={<Page9Sub9 />} />
-
-
+        <Route path="Page9Sub10" element={<Page9Sub10 />} />
+        <Route path="Page9Sub11" element={<Page9Sub11 />} />
+        <Route path="Page9Sub12" element={<Page9Sub12 />} />
+        <Route path="Page9Sub13" element={<Page9Sub13 />} />
+        <Route path="Page9Sub14" element={<Page9Sub14 />} />
+        <Route path="Page9Sub15" element={<Page9Sub15 />} />
 
 
 
