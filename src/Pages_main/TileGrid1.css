@@ -1,6 +1,6 @@
 /* Grid container styles */
 .tile-grid {
-  display: grid;
+  display:contents;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Flexible grid columns */
   gap: 60px;
   padding: 10px; /* Optional padding around the grid */
@@ -48,7 +48,7 @@
 .tile {
   /* Add some basic styling to the tiles */
   background-color: #f7f7f7;
-  border: 1px solid #ddd;
+  border: 1px solid #ffffff;
   padding: 20px;
   text-align: center;
   width: 400px;

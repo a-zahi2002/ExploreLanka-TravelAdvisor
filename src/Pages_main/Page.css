@@ -4,7 +4,7 @@
   max-width: 2000px;
   padding: 20px;
   background-color: #fff;
-  border: 1px solid #000000;
+
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow-y: auto;
 }
@@ -37,12 +37,22 @@
 }
 
 .topic{
-  background-color: rgb(123, 237, 95);
-}
+    width: 1000px;
+    margin: 0 auto;            
+    padding: 10px;            
+    text-align: center;
+    border-radius: 25px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #068b27; 
+    font-size:xxx-large;
+   
+  
+  }
+  
 
 .paragraph{
   font-family:serif;
   font-weight: 400;
-  font-size: 60px;
+  font-size: 30px;
   background-color: rgb(255, 255, 255);
 }
