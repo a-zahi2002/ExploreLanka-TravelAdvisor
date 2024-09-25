@@ -71,7 +71,7 @@ const TileGrid: React.FC = () => {
    
     <div className="video-background">
         <video autoPlay loop muted>
-          <source src="src\18993612-hd_1920_1080_50fps.mp4" type="video/mp4" />
+          <source src="src/cover.mp4" type="video/mp4" />
         </video>
       </div>
 
