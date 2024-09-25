@@ -72,7 +72,7 @@ const tileData: TileData[] = [
   },
   {
     image: "src/assets/Sri-Kailawasanathan1.jpg",
-    description: "Temple of Sri Kailawasanathan Swami Devasthanam Kovil",
+    description: "Sri Kailawasanathan Swami Devasthanam Kovil",
     page: "Page9Sub10", // Note: Removed the leading '/'
   },
   {
@@ -135,9 +135,6 @@ const TileGrid9: React.FC = () => {
         <Route path="Page9Sub13" element={<Page9Sub13 />} />
         <Route path="Page9Sub14" element={<Page9Sub14 />} />
         <Route path="Page9Sub15" element={<Page9Sub15 />} />
-
-
-
       </Routes>
     </div>
   );

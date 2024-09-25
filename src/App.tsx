@@ -5,23 +5,24 @@ import Footer from "./Footer";
 
 function App() {
   return (
-   
     <div className="app">
-       <div>
-    <h1 className="heading">ExploreLanka<img src="public\favicon.ico" className="logo1"/></h1>
-    
-    </div>
+      <div>
+        <h1 className="heading">
+          <img
+            src="public\favicon.ico"
+            className="logo1"
+            alt="Explorelanka_logo"
+          />
+          ExploreLanka
+        </h1>
+      </div>
 
-    
       <TileGrid />
 
-      
-
       <div>
-      <Footer />
+        <Footer />
       </div>
     </div>
-    
   );
 }
 

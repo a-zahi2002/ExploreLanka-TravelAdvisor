@@ -27,7 +27,7 @@ const Page2: React.FC = () => {
         of traveler.
       </p>
       <TileGrid2 />
-      <button onClick={() => navigate(-1)}>Close</button>{" "}
+      <button onClick={() => navigate(-1)}>Back</button>{" "}
     </div>
   );
 };

@@ -13,8 +13,6 @@ import Page8 from "./Pages_main/Page8";
 import Page9 from "./Pages_main/Page9";
 
 const tileData = [
-
-
   {
     image: "src/Pages_main/sabaragamuwa img/img111.jpg",
     description: "Sabaragamuwa Province",
@@ -62,34 +60,42 @@ const tileData = [
   },
 ];
 
-
-
 const TileGrid: React.FC = () => {
   return (
     <BrowserRouter>
-   
-   
-    <div className="video-background">
-        <video autoPlay muted>
+      <div className="video-background">
+        <video autoPlay muted loop>
           <source src="src/cover.mp4" type="video/mp4" />
         </video>
       </div>
-
-      
-
 
       <Routes>
         <Route
           path="/"
           element={
             <div>
+              <p className="intro-paragraph">
+                Welcome to ExploreLanka! Discover the beauty and diversity of
+                Sri Lanka through our curated selection of destinations. Click
+                on any tile to get more details about each province.
+              </p>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
 
-              <p className="intro-paragraph">Welcome to ExploreLanka! Discover the beauty and diversity of Sri Lanka through our curated selection of destinations. 
-                Click on any tile to get more details about each province.</p>    
-              <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-              <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-            
-            
               {tileData.map((tile, index) => (
                 <Tile
                   key={index}
