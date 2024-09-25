@@ -19,8 +19,8 @@ const tileData = [
     page: "/page1",
   },
   {
-    image: "https://picsum.photos/200/300",
-    description: "Tile 2",
+    image: "src/Pages_main/NWP img/nwp.jpg",
+    description: "North Western Province",
     page: "/page2",
   },
   {
