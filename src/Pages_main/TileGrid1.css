@@ -1,17 +1,12 @@
 /* Grid container styles */
 .tile-grid {
-<<<<<<< Updated upstream
-  display: grid;
-=======
-  display: contents;
->>>>>>> Stashed changes
+  display:contents;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Flexible grid columns */
-  gap: 10px;
+  gap: 60px;
   padding: 10px; /* Optional padding around the grid */
   grid-auto-flow: row; /* Add this line to prevent stacking */
+  max-width: 80%; /* Set the maximum width to 80% of the page width */
   margin: 0 auto; /* Center the grid horizontally */
-  max-width:80%; /* Make the grid container full width */
-  background-color: #f7f7f7; /* Add background color to the grid container */
 }
 
 /* Media query for full screen mode */
@@ -22,18 +17,9 @@
 }
 
 /* Media query for larger screens */
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .tile-grid {
-    grid-template-columns: repeat(4, minmax(180px, 1fr)); /* 4 columns on very large screens */
-    background-size: 100% 100%; /* Make the background cover the entire screen */
-    background-position: center; /* Center the background */
-  }
-}
-
-/* Media query for laptop screens */
-@media (min-width: 1200px) and (max-width: 1399px) {
-  .tile-grid {
-    grid-template-columns: repeat(3, minmax(150px, 1fr)); /* 3 columns on laptop screens */
+    grid-template-columns: repeat(3, minmax(150px, 1fr)); /* 3 columns on larger screens */
   }
 }
 
@@ -61,16 +47,10 @@
 /* Individual tile styles */
 .tile {
   /* Add some basic styling to the tiles */
-<<<<<<< Updated upstream
   background-color: #f7f7f7;
-  border: 1px solid #ddd;
-  padding: 20px;
-  text-align: center;
-=======
   border: 1px solid #ffffff;
   padding: 20px;
   text-align: center;
   width: 400px;
-  height: 375px;
->>>>>>> Stashed changes
+  height:375px;
 }

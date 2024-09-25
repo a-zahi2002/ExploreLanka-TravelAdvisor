@@ -13,14 +13,16 @@ import Page8 from "./Pages_main/Page8";
 import Page9 from "./Pages_main/Page9";
 
 const tileData = [
+
+
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/Pages_main/sabaragamuwa img/img111.jpg",
     description: "Sabaragamuwa Province",
     page: "/page1",
   },
   {
-    image: "https://picsum.photos/200/300",
-    description: "Tile 2",
+    image: "src/Pages_main/NWP img/nwp.jpg",
+    description: "North Western Province",
     page: "/page2",
   },
   {
@@ -54,55 +56,40 @@ const tileData = [
     page: "/page8",
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/assets/999.jpeg",
     description: "Western Province",
     page: "/page9",
   },
 ];
 
+
+
 const TileGrid: React.FC = () => {
   return (
     <BrowserRouter>
-<<<<<<< Updated upstream
-=======
-      <div className="video-background">
-        <video autoPlay muted loop>
+   
+   
+    <div className="video-background">
+        <video autoPlay muted>
           <source src="src/cover.mp4" type="video/mp4" />
         </video>
       </div>
 
->>>>>>> Stashed changes
+      
+
+
       <Routes>
         <Route
           path="/"
           element={
-<<<<<<< Updated upstream
-            <div className="tile-grid">
-=======
             <div>
-              <p className="intro-paragraph">
-                Welcome to ExploreLanka! Discover the beauty and diversity of
-                Sri Lanka through our curated selection of destinations. Click
-                on any tile to get more details about each province.
-              </p>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
 
->>>>>>> Stashed changes
+              <p className="intro-paragraph">Welcome to ExploreLanka! Discover the beauty and diversity of Sri Lanka through our curated selection of destinations. 
+                Click on any tile to get more details about each province.</p>    
+              <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+              <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+            
+            
               {tileData.map((tile, index) => (
                 <Tile
                   key={index}

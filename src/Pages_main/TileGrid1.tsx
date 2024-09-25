@@ -24,62 +24,62 @@ interface TileData {
 
 const tileData: TileData[] = [
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/Pages_main/sabaragamuwa img/img1.jpg",
     description: "Pinnawala Elephant Orphanage",
     page: "Page1Sub1", // Note: Removed the leading '/'
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/Pages_main/sabaragamuwa img/img2.jpg",
     description: "Adam’s Peak/Sri Padaya",
     page: "Page1Sub2", // Note: Removed the leading '/'
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/Pages_main/sabaragamuwa img/img3.jpg",
     description: "Great World’s End Drop",
     page: "Page1Sub3", // Note: Removed the leading '/'
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/Pages_main/sabaragamuwa img/img4.jpg",
     description: "Bopath Ella Falls",
     page: "Page1Sub4", // Note: Removed the leading '/'
   },
   {
-    image: "https://picsum.photos/200/300",
+    image:"src/Pages_main/sabaragamuwa img/img5.webp",
     description: "Kithulgala Belilena Cave",
     page: "Page1Sub5", // Note: Removed the leading '/'
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/Pages_main/sabaragamuwa img/img6.jpg",
     description: "Kirindi Ella Waterfall",
     page: "Page1Sub6", // Note: Removed the leading '/'
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/Pages_main/sabaragamuwa img/img7.jpg",
     description: "Millennium Elephant Foundation",
     page: "Page1Sub7", // Note: Removed the leading '/'
   },
   {
-    image: "https://picsum.photos/200/300",
+    image:"src/Pages_main/sabaragamuwa img/img8.webp",
     description: "Bibile Rock",
     page: "Page1Sub8", // Note: Removed the leading '/'
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/Pages_main/sabaragamuwa img/img9.jpg",
     description: "Kithulgala Water Rafting",
     page: "Page1Sub9", // Note: Removed the leading '/'
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/Pages_main/sabaragamuwa img/img10.jpg",
     description: "Samanalawewa Resorvior",
     page: "Page1Sub10", // Note: Removed the leading '/'
   },
   {
-    image: "https://picsum.photos/200/300",
+    image:"src/Pages_main/sabaragamuwa img/img11.jpg",
     description: "Balangoda View Point",
     page: "Page1Sub11", // Note: Removed the leading '/'
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/Pages_main/sabaragamuwa img/img12.jpg",
     description: "Alagalla Mountain Range",
     page: "Page1Sub12", // Note: Removed the leading '/'
   },
