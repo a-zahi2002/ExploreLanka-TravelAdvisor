@@ -51,4 +51,36 @@
   border: 1px solid #ddd;
   padding: 20px;
   text-align: center;
+<<<<<<< Updated upstream
+=======
+  z-index: -1;
+}
+
+/* Video background styles */
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100vw; /* Ensure width is at least 100% of viewport width */
+  min-height: 100vh; /* Ensure height is at least 100% of viewport height */
+  width: 100vw; /* Set width to 100% of viewport width */
+  height: 100vh; /* Set height to 100% of viewport height */
+  z-index: -1; /* Keep the video behind other content */
+  overflow: hidden; /* Prevent overflow */
+}
+
+.video-background video {
+  width: 100vw; /* Set width to 100% of viewport width */
+  height: 100vh; /* Set height to 100% of viewport height */
+  object-fit: cover; /* Cover the entire area */
+}
+
+.intro-paragraph {
+  color: white; /* Change color based on your design */
+  font-size: 1.2em; /* Adjust size as needed */
+  text-align: center; /* Center align text */
+  margin: 10px; /* Add spacing */
+  z-index: 0; /* Ensure it appears above the video */
+  width: 100%;
+>>>>>>> Stashed changes
 }

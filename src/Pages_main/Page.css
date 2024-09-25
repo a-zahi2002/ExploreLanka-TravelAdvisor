@@ -1,8 +1,12 @@
 
 
 .page {
+<<<<<<< Updated upstream
   max-width: 1000px;
   margin: 40px auto;
+=======
+  max-width: 100%;
+>>>>>>> Stashed changes
   padding: 20px;
   background-color: #fff;
   border: 1px solid #000000;
@@ -29,3 +33,33 @@
 .page button:hover {
   background-color: #3e8e41;
 }
+<<<<<<< Updated upstream
+=======
+
+.tile:hover {
+  transform: scale(1);
+  box-shadow: 4px 8px  16px rgb(0, 0, 0);
+
+}
+
+.topic{
+    width: auto;
+    margin: 0 auto;            
+    padding: 10px;            
+    text-align: center;
+    border-radius: 25px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #068b27; 
+    font-size:xxx-large;
+   
+  
+  }
+  
+
+.paragraph{
+  font-family:serif;
+  font-weight: 400;
+  font-size: 30px;
+  background-color: rgb(255, 255, 255);
+}
+>>>>>>> Stashed changes

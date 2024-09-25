@@ -63,11 +63,46 @@ const tileData = [
 const TileGrid: React.FC = () => {
   return (
     <BrowserRouter>
+<<<<<<< Updated upstream
+=======
+      <div className="video-background">
+        <video autoPlay muted loop>
+          <source src="src/cover.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+>>>>>>> Stashed changes
       <Routes>
         <Route
           path="/"
           element={
+<<<<<<< Updated upstream
             <div className="tile-grid">
+=======
+            <div>
+              <p className="intro-paragraph">
+                Welcome to ExploreLanka! Discover the beauty and diversity of
+                Sri Lanka through our curated selection of destinations. Click
+                on any tile to get more details about each province.
+              </p>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+
+>>>>>>> Stashed changes
               {tileData.map((tile, index) => (
                 <Tile
                   key={index}

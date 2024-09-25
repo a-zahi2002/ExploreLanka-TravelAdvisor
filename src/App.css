@@ -1,4 +1,50 @@
 .app {
+<<<<<<< Updated upstream
     font-family: Arial, sans-serif;
     text-align: center;
   }
+=======
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.heading {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-size: 60px;
+  background-color: rgb(179, 250, 187);
+}
+
+.logo1 {
+  height: 7%;
+  width: 7%;
+  align-content: center;
+  top: 50px;
+}
+
+/* Media queries */
+
+/* For screens with a maximum width of 768px (e.g. tablets) */
+@media only screen and (max-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+  .logo1 {
+    height: 5%;
+    width: 5%;
+    top: 30px;
+  }
+}
+
+/* For screens with a maximum width of 480px (e.g. mobile phones) */
+@media only screen and (max-width: 480px) {
+  .heading {
+    font-size: 30px;
+  }
+  .logo1 {
+    height: 3%;
+    width: 3%;
+    top: 20px;
+  }
+}
+>>>>>>> Stashed changes
