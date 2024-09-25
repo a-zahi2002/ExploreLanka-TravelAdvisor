@@ -7,6 +7,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <p>&copy; {new Date().getFullYear()} ExploreLanka</p>
+        <br></br>
                 <center>
                <p> About | Contact Us</p>
                <p>Group 11 - web project | dilminaliyanage@gmail.com</p> 

@@ -8,8 +8,17 @@
   font-family:'Lora', serif;
   font-weight: 400;
   font-size: 60px;
-  background-color: rgb(71, 220, 148);
+  background-color: rgb(179, 250, 187);
 }
+
+.logo1{
+height: 5%;
+width:5%;
+align-content:center;
+top:50px;
+}
+
+
    
 
 

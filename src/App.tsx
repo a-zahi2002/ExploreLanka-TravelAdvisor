@@ -8,7 +8,8 @@ function App() {
    
     <div className="app">
        <div>
-    <h1 className="heading">ExploreLanka</h1>
+    <h1 className="heading">ExploreLanka<img src="public\favicon.ico" className="logo1"/></h1>
+    
     </div>
 
     
