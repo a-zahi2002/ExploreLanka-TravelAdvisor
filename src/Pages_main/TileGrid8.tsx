@@ -5,6 +5,15 @@ import Tile from "../Tile";
 import Page8Sub1 from "./Pages_sub8/Page8Sub1";
 import Page8Sub2 from "./Pages_sub8/Page8Sub2";
 import Page8Sub3 from "./Pages_sub8/Page8Sub3";
+import Page8Sub4 from "./Pages_sub8/Page8Sub4";
+import Page8Sub5 from "./Pages_sub8/Page8Sub5";
+import Page8Sub6 from "./Pages_sub8/Page8Sub6";
+import Page8Sub7 from "./Pages_sub8/Page8Sub7";
+import Page8Sub8 from "./Pages_sub8/Page8Sub8";
+import Page8Sub9 from "./Pages_sub8/Page8Sub9";
+import Page8Sub10 from "./Pages_sub8/Page8Sub10";
+import Page8Sub11 from "./Pages_sub8/Page8Sub11";
+import Page8Sub12 from "./Pages_sub8/Page8Sub12";
 
 interface TileData {
   image: string;
@@ -14,21 +23,65 @@ interface TileData {
 
 const tileData: TileData[] = [
   {
-    image: "https://picsum.photos/200/300",
-    description: "Tile 1",
+    image: "/src/assets/central img/1.jpg",
+    description: "Sembuwatta Lake",
     page: "Page8Sub1", // Note: Removed the leading '/'
   },
   {
-    image: "https://picsum.photos/200/300",
-    description: "Tile 2",
+    image: "/src/assets/central img/2.jpg",
+    description: "Riverston",
     page: "Page8Sub2", // Note: Removed the leading '/'
   },
   {
-    image: "https://picsum.photos/200/300",
-    description: "Tile 3",
+    image: "/src/assets/central img/3.jpg",
+    description: "Wasgamuwa National Park ",
     page: "Page8Sub3", // Note: Removed the leading '/'
   },
-  // Add more tile data as needed
+  {
+    image: "/src/assets/central img/4.jpg",
+    description: "Temple of the Sacred Tooth Relic (Sri Dalada Maligawa)",
+    page: "Page8Sub4", // Note: Removed the leading '/'
+  },
+  {
+    image: "/src/assets/central img/5.jpg",
+    description: "Royal Botanical Gardens, Peradeniya",
+    page: "Page8Sub5", // Note: Removed the leading '/'
+  },
+  {
+    image: "/src/assets/central img/6.jpg",
+    description: "Udawatta Kele Sanctuary",
+    page: "Page8Sub6", // Note: Removed the leading '/'
+  },
+  {
+    image: "/src/assets/central img/7.jpg",
+    description: "Horton Plains National Park & World's End",
+    page: "Page8Sub7", // Note: Removed the leading '/'
+  },
+  {
+    image: "/src/assets/central img/8.jpg",
+    description: "Gregory Lake",
+    page: "Page8Sub8", // Note: Removed the leading '/'
+  },
+  {
+    image: "/src/assets/central img/9.jpg",
+    description: "Seetha Amman Temple ",
+    page: "Page8Sub9", // Note: Removed the leading '/'
+  },
+  {
+    image: "/src/assets/central img/10.jpg",
+    description: "Ceylon Tea Museum",
+    page: "Page8Sub10", // Note: Removed the leading '/'
+  },
+  {
+    image: "/src/assets/central img/11.jpg",
+    description: "Dambulla Cave Temple",
+    page: "Page8Sub11", // Note: Removed the leading '/'
+  },
+  {
+    image: "/src/assets/central img/12.jpg",
+    description: "St. Clair’s Falls",
+    page: "Page8Sub12", // Note: Removed the leading '/'
+  },
 ];
 
 const TileGrid8: React.FC = () => {
@@ -51,6 +104,15 @@ const TileGrid8: React.FC = () => {
         <Route path="Page8Sub1" element={<Page8Sub1 />} />
         <Route path="Page8Sub2" element={<Page8Sub2 />} />
         <Route path="Page8Sub3" element={<Page8Sub3 />} />
+        <Route path="Page8Sub4" element={<Page8Sub4 />} />
+        <Route path="Page8Sub5" element={<Page8Sub5 />} />
+        <Route path="Page8Sub6" element={<Page8Sub6 />} />
+        <Route path="Page8Sub7" element={<Page8Sub7 />} />
+        <Route path="Page8Sub8" element={<Page8Sub8 />} />
+        <Route path="Page8Sub9" element={<Page8Sub9 />} />
+        <Route path="Page8Sub10" element={<Page8Sub10 />} />
+        <Route path="Page8Sub11" element={<Page8Sub11 />} />
+        <Route path="Page8Sub12" element={<Page8Sub12 />} />
       </Routes>
     </div>
   );
