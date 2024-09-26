@@ -24,8 +24,8 @@ const tileData = [
     page: "/page2",
   },
   {
-    image: "https://picsum.photos/200/300",
-    description: "Tile 3",
+    image: "src/southern img/south.jpg",
+    description: "Southern Province",
     page: "/page3",
   },
   {
