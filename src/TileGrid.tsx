@@ -29,8 +29,8 @@ const tileData = [
     page: "/page3",
   },
   {
-    image: "https://picsum.photos/200/300",
-    description: "Tile 4",
+    image: "src/uva img/uva.jpg",
+    description: "Uva Province",
     page: "/page4",
   },
   {
