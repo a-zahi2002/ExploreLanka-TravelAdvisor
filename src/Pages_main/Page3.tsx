@@ -8,7 +8,7 @@ const Page3: React.FC = () => {
 
   return (
     <div className="page">
-      <h1 className="topic"> Southern Province-Sri Lanka</h1>
+      <h1 className="topic">North Western Province-Sri Lanka</h1>
       <p className="paragraph">
       Discover the Charms of Southern Province, Sri Lanka.
       </p>
