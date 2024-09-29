@@ -24,12 +24,12 @@ const tileData = [
     page: "/page2",
   },
   {
-    image: "src/southern img/south.jpg",
+    image: "src/southern img/SP_Cover.jpg",
     description: "Southern Province",
     page: "/page3",
   },
   {
-    image: "src/uva img/uva.jpg",
+    image: "src/uva img/UVA_Cover.jpg",
     description: "Uva Province",
     page: "/page4",
   },
@@ -54,7 +54,7 @@ const tileData = [
     page: "/page8",
   },
   {
-    image: "src/assets/999.jpeg",
+    image: "src/assets/WP_Cover.jpg",
     description: "Western Province",
     page: "/page9",
   },
