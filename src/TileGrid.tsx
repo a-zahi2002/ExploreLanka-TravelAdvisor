@@ -14,23 +14,23 @@ import Page9 from "./Pages_main/Page9";
 
 const tileData = [
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/Pages_main/sabaragamuwa img/img111.jpg",
     description: "Sabaragamuwa Province",
     page: "/page1",
   },
   {
-    image: "https://picsum.photos/200/300",
-    description: "Tile 2",
+    image: "src/Pages_main/NWP img/nwp.jpg",
+    description: "North Western Province",
     page: "/page2",
   },
   {
-    image: "https://picsum.photos/200/300",
-    description: "Tile 3",
+    image: "src/southern img/south.jpg",
+    description: "Southern Province",
     page: "/page3",
   },
   {
-    image: "https://picsum.photos/200/300",
-    description: "Tile 4",
+    image: "src/uva img/uva.jpg",
+    description: "Uva Province",
     page: "/page4",
   },
   {
@@ -49,12 +49,12 @@ const tileData = [
     page: "/page7",
   },
   {
-    image: "https://picsum.photos/200/300",
-    description: "Tile 8",
+    image: "/src/assets/central img/cover.jpg",
+    description: "Central Province",
     page: "/page8",
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/assets/western img/999.jpeg",
     description: "Western Province",
     page: "/page9",
   },
@@ -63,11 +63,39 @@ const tileData = [
 const TileGrid: React.FC = () => {
   return (
     <BrowserRouter>
+      <div className="video-background">
+        <video autoPlay muted loop>
+          <source src="src/cover.mp4" type="video/mp4" />
+        </video>
+      </div>
+
       <Routes>
         <Route
           path="/"
           element={
-            <div className="tile-grid">
+            <div>
+              <p className="intro-paragraph">
+                Welcome to ExploreLanka! Discover the beauty and diversity of
+                Sri Lanka through our curated selection of destinations. Click
+                on any tile to get more details about each province.
+              </p>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+
               {tileData.map((tile, index) => (
                 <Tile
                   key={index}

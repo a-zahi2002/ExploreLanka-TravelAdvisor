@@ -8,10 +8,20 @@ const Page3: React.FC = () => {
 
   return (
     <div className="page">
-      <h1>Page 3</h1>
+      <h1 className="topic">North Western Province-Sri Lanka</h1>
+      <p className="paragraph">
+      Discover the Charms of Southern Province, Sri Lanka.
+      </p>
+      <p>
+      Southern Province, Sri Lanka, is a vibrant region comprised of several districts, 
+      including Galle, Matara, and Hambantota. Known for its breathtaking beaches and
+      rich cultural history, Galle features the famous Dutch Fort, while Matara boasts 
+      beautiful coastlines and lively markets. Hambantota is recognized for its wildlife
+      and stunning natural landscapes. This province offers a perfect mix of adventure, 
+      relaxation, and exploration, making it an ideal destination for all types of travelers.
+      </p>
       <TileGrid3 />
-      <button onClick={() => navigate(-1)}>Close</button>{" "}
-      {/* Better for navigating back */}
+      <button onClick={() => navigate(-1)}>Back</button>{" "}
     </div>
   );
 };

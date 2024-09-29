@@ -26,77 +26,77 @@ interface TileData {
 
 const tileData: TileData[] = [
   {
-    image: "src/assets/gangaramaya.jpg",
+    image: "src/assets/western img/gangaramaya.jpg",
     description: "Gangaramaya Temple",
     page: "Page9Sub1", // Note: Removed the leading '/'
   },
   {
-    image: "src/assets/galle-face-green-2.jpg",
+    image: "src/assets/western img/galle-face-green-2.jpg",
     description: "Galle Face Green",
     page: "Page9Sub2", // Note: Removed the leading '/'
   },
   {
-    image: "src/assets/viharamaha devi park.jpg",
+    image: "src/assets/western img/viharamaha devi park.jpg",
     description: "Vihara Maha Devi Park",
     page: "Page9Sub3", // Note: Removed the leading '/'
   },
   {
-    image: "src/assets/colombo_national_museum.jpg",
+    image: "src/assets/western img/colombo_national_museum.jpg",
     description: "Colombo National Museum",
     page: "Page9Sub4", // Note: Removed the leading '/'
   },
   {
-    image: "src/assets/Independence_Commemoration_Hall.jpg",
+    image: "src/assets/western img/Independence_Commemoration_Hall.jpg",
     description: "Independence Memorial Hall",
     page: "Page9Sub5", // Note: Removed the leading '/'
   },
   {
-    image: "src/assets/Beira_Lake.jpg",
+    image: "src/assets/western img/Beira_Lake.jpg",
     description: "Beira Lake",
     page: "Page9Sub6", // Note: Removed the leading '/'
   },
   {
-    image: "src/assets/Jami-Ul-Alfar-Mosque.jpg",
+    image: "src/assets/western img/Jami-Ul-Alfar-Mosque.jpg",
     description: "Jami Ul-Alfar Mosque",
     page: "Page9Sub7", // Note: Removed the leading '/'
   },
   {
-    image: "src/assets/wolvendal church.jpg",
+    image: "src/assets/western img/wolvendal church.jpg",
     description: "Wolvendaal Church",
     page: "Page9Sub8", // Note: Removed the leading '/'
   },
   {
-    image: "src/assets/kelani temple.jpg",
+    image: "src/assets/western img/kelani temple.jpg",
     description: "Kelaniya Raja Maha Vihara",
     page: "Page9Sub9", // Note: Removed the leading '/'
   },
   {
-    image: "src/assets/Sri-Kailawasanathan1.jpg",
-    description: "Temple of Sri Kailawasanathan Swami Devasthanam Kovil",
+    image: "src/assets/western img/Sri-Kailawasanathan1.jpg",
+    description: "Sri Kailawasanathan Swami Devasthanam Kovil",
     page: "Page9Sub10", // Note: Removed the leading '/'
   },
   {
-    image: "src/assets/the-old-colombo-dutch.jpg",
+    image: "src/assets/western img/the-old-colombo-dutch.jpg",
     description: "Dutch Hospital Shopping Precinct",
     page: "Page9Sub11", // Note: Removed the leading '/'
   },
   {
-    image: "src/assets/brief garden.webp",
+    image: "src/assets/western img/brief garden.webp",
     description: "Brief Garden",
     page: "Page9Sub12", // Note: Removed the leading '/'
   },
   {
-    image: "src/assets/ella falls.webp",
+    image: "src/assets/western img/ella falls.webp",
     description: "Alagiyawanna Ella Falls",
     page: "Page9Sub13", // Note: Removed the leading '/'
   },
   {
-    image: "src/assets/Arcade-at-Independence-Square.png",
+    image: "src/assets/western img/Arcade-at-Independence-Square.png",
     description: "Arcade Independence Square",
     page: "Page9Sub14", // Note: Removed the leading '/'
   },
   {
-    image: "src/assets/Bandiyamulla Tombstone.jpeg",
+    image: "src/assets/western img/Bandiyamulla Tombstone.jpeg",
     description: "Bandiyamulla Tombstone",
     page: "Page9Sub15", // Note: Removed the leading '/'
   },
@@ -135,9 +135,6 @@ const TileGrid9: React.FC = () => {
         <Route path="Page9Sub13" element={<Page9Sub13 />} />
         <Route path="Page9Sub14" element={<Page9Sub14 />} />
         <Route path="Page9Sub15" element={<Page9Sub15 />} />
-
-
-
       </Routes>
     </div>
   );

@@ -10,7 +10,7 @@ const Page7: React.FC = () => {
     <div className="page">
       <h1>Page 7</h1>
       <TileGrid7 />
-      <button onClick={() => navigate(-1)}>Close</button>{" "}
+      <button onClick={() => navigate(-1)}>Back</button>{" "}
       {/* Better for navigating back */}
     </div>
   );
