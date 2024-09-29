@@ -34,8 +34,8 @@ const tileData = [
     page: "/page4",
   },
   {
-    image: "https://picsum.photos/200/300",
-    description: "Tile 5",
+    image: "src/NCP_Images/NorthCentral.jpg",
+    description: "North Central Province",
     page: "/page5",
   },
   {
@@ -65,7 +65,7 @@ const TileGrid: React.FC = () => {
     <BrowserRouter>
       <div className="video-background">
         <video autoPlay muted loop>
-          <source src="src/cover.mp4" type="video/mp4" />
+          <source src="src/Background_video.mp4" type="video/mp4" />
         </video>
       </div>
 
