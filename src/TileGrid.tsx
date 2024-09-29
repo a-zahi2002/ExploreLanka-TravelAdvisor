@@ -54,7 +54,7 @@ const tileData = [
     page: "/page8",
   },
   {
-    image: "src/assets/999.jpeg",
+    image: "src/assets/western img/999.jpeg",
     description: "Western Province",
     page: "/page9",
   },
