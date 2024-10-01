@@ -2,15 +2,13 @@ import React from "react";
 import "./App.css";
 import TileGrid from "./TileGrid";
 import Footer from "./Footer";
+import Navbar from "./Navbar/Navbar";
 
 function App() {
   return (
     <div className="app">
       <div>
-        <h1 className="heading">
-          <img src="/favicon.ico" className="logo1" alt="Explorelanka_logo" />
-          ExploreLanka
-        </h1>
+        <Navbar />
       </div>
 
       <TileGrid />
