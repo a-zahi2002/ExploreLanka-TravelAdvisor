@@ -13,7 +13,7 @@ import Page5Sub8 from "./Pages_sub5/Page5Sub8";
 import Page5Sub9 from "./Pages_sub5/Page5Sub9";
 import Page5Sub10 from "./Pages_sub5/Page5Sub10";
 import Page5Sub11 from "./Pages_sub5/Page5Sub11";
-import Page5Sub12 from "./Pages_sub5/Page5SUb12";
+import Page5Sub12 from "./Pages_sub5/Page5Sub12";
 import Page5Sub13 from "./Pages_sub5/Page5Sub13";
 import Page5Sub14 from "./Pages_sub5/Page5Sub14";
 import Page5Sub15 from "./Pages_sub5/Page5Sub15";
@@ -23,7 +23,7 @@ import Page5Sub18 from "./Pages_sub5/Page5Sub18";
 import Page5Sub19 from "./Pages_sub5/Page5Sub19";
 import Page5Sub20 from "./Pages_sub5/Page5Sub20";
 import Page5Sub21 from "./Pages_sub5/Page5Sub21";
-import Page5Sub22 from "./Pages_sub5/Page5SUb22";
+import Page5Sub22 from "./Pages_sub5/Page5Sub22";
 import Page5Sub23 from "./Pages_sub5/Page5Sub23";
 import Page5Sub24 from "./Pages_sub5/Page5Sub24";
 

@@ -40,7 +40,7 @@ const tileData = [
   },
   {
     image: "https://picsum.photos/200/300",
-    description: "Tile 6",
+    description: "Eastern province",
     page: "/page6",
   },
   {
@@ -54,7 +54,6 @@ const tileData = [
     page: "/page8",
   },
   {
-
     image: "src/assets/WP_Cover.jpg",
 
     description: "Western Province",
