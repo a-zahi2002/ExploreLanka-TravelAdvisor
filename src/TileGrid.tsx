@@ -24,18 +24,18 @@ const tileData = [
     page: "/page2",
   },
   {
-    image: "src/southern img/south.jpg",
+    image: "src/southern img/SP_Cover.jpg",
     description: "Southern Province",
     page: "/page3",
   },
   {
-    image: "https://picsum.photos/200/300",
-    description: "Tile 4",
+    image: "src/uva img/UVA_Cover.jpg",
+    description: "Uva Province",
     page: "/page4",
   },
   {
-    image: "https://picsum.photos/200/300",
-    description: "Tile 5",
+    image: "src/NCP_Images/NorthCentral.jpg",
+    description: "North Central Province",
     page: "/page5",
   },
   {
@@ -54,7 +54,9 @@ const tileData = [
     page: "/page8",
   },
   {
-    image: "src/assets/999.jpeg",
+
+    image: "src/assets/WP_Cover.jpg",
+
     description: "Western Province",
     page: "/page9",
   },
@@ -65,7 +67,7 @@ const TileGrid: React.FC = () => {
     <BrowserRouter>
       <div className="video-background">
         <video autoPlay muted loop>
-          <source src="src/cover.mp4" type="video/mp4" />
+          <source src="src/Background_video.mp4" type="video/mp4" />
         </video>
       </div>
 
