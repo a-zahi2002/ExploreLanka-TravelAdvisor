@@ -77,88 +77,88 @@ const tileData: TileData[] = [
     page: "Page7Sub8", // Note: Removed the leading '/'
   },
   {
-    image: "https://picsum.photos/200/300",
-    description: "Tile 3",
+    image: "src/Pages_main/Northern img/Thiruketheeswaram temple-09.jpg",
+    description: "Thiruketheeswaram temple",
     page: "Page7Sub9", // Note: Removed the leading '/'
   },
   {
-    image: "https://picsum.photos/200/300",
-    description: "Tile 1",
+    image: "src/Pages_main/Northern img/Mannar madu matha church-10.jpg",
+    description: "Mannar madu matha church",
     page: "Page7Sub10", // Note: Removed the leading '/'
   },
   {
-    image: "https://picsum.photos/200/300",
-    description: "Tile 2",
+    image: "src/Pages_main/Northern img/Mannar light house-11.jpg",
+    description: "Mannar light house",
     page: "Page7Sub11", // Note: Removed the leading '/'
   },
   {
-    image: "https://picsum.photos/200/300",
-    description: "Tile 3",
+    image: "src/Pages_main/Northern img/Mannar kunchikulam bridge-12.jpg",
+    description: "Mannar kunchikulam bridge",
     page: "Page7Sub12", // Note: Removed the leading '/'
   },
   {
-    image: "https://picsum.photos/200/300",
-    description: "Tile 1",
+    image: "src/Pages_main/Northern img/Adam's bridge's edge(Ram setu)-13.jpg",
+    description: "Adam's bridge's edge(Ram setu)",
     page: "Page7Sub13", // Note: Removed the leading '/'
   },
   {
-    image: "https://picsum.photos/200/300",
-    description: "Tile 2",
+    image: "src/Pages_main/Northern img/Elephant pass saltern-14.jpg",
+    description: "Elephant pass saltern",
     page: "Page7Sub14", // Note: Removed the leading '/'
   },
   {
-    image: "https://picsum.photos/200/300",
-    description: "Tile 3",
+    image: "src/Pages_main/Northern img/Iranaimadu tank-15.jpg",
+    description: "Iranaimadu tank",
     page: "Page7Sub15", // Note: Removed the leading '/'
   },
   {
-    image: "https://picsum.photos/200/300",
-    description: "Tile 1",
+    image: "src/Pages_main/Northern img/Muripukulam-16.jpg",
+    description: "Muripukulam",
     page: "Page7Sub16", // Note: Removed the leading '/'
   },
   {
-    image: "https://picsum.photos/200/300",
-    description: "Tile 2",
+    image: "src/Pages_main/Northern img/Kilinochchi war memorial-17.jpg",
+    description: "Kilinochchi war memorial",
     page: "Page7Sub17", // Note: Removed the leading '/'
   },
   {
-    image: "https://picsum.photos/200/300",
-    description: "Tile 3",
+    image: "src/Pages_main/Northern img/Chundikulam beach-18.jpg",
+    description: "Chundikulam beach",
     page: "Page7Sub18", // Note: Removed the leading '/'
   },
   {
-    image: "https://picsum.photos/200/300",
-    description: "Tile 1",
+    image: "src/Pages_main/Northern img/Submarine yard-19.jpg",
+    description: "Submarine yard",
     page: "Page7Sub19", // Note: Removed the leading '/'
   },
   {
-    image: "https://picsum.photos/200/300",
-    description: "Tile 2",
+    image: "src/Pages_main/Northern img/Puthukudiyirupu war museum-20.jpg",
+    description: "Puthukudiyirupu war museum",
     page: "Page7Sub20", // Note: Removed the leading '/'
   },
   {
-    image: "https://picsum.photos/200/300",
-    description: "Tile 3",
+    image: "src/Pages_main/Northern img/Naayaru lagoon-21.jpg",
+    description: "Naayaru lagoon",
     page: "Page7Sub21", // Note: Removed the leading '/'
   },
   {
-    image: "https://picsum.photos/200/300",
-    description: "Tile 1",
+    image: "src/Pages_main/Northern img/Archaeological museum-22.jpg",
+    description: "Archaeological museum",
     page: "Page7Sub22", // Note: Removed the leading '/'
   },
   {
-    image: "https://picsum.photos/200/300",
-    description: "Tile 2",
+    image: "src/Pages_main/Northern img/Vavuniya kulam-23.jpg",
+    description: "Vavuniya kulam",
     page: "Page7Sub23", // Note: Removed the leading '/'
   },
   {
-    image: "https://picsum.photos/200/300",
-    description: "Tile 3",
+    image: "src/Pages_main/Northern img/Kalvari church-24.jpg",
+    description: "Kalvari church",
     page: "Page7Sub24", // Note: Removed the leading '/'
   },
   {
-    image: "https://picsum.photos/200/300",
-    description: "Tile 3",
+    image: "src/Pages_main/Northern img/Pavatkulam-25.jpg",
+    description: "Pavatkulam",
     page: "Page7Sub25", // Note: Removed the leading '/'
   },
   // Add more tile data as needed
