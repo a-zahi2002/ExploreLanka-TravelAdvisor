@@ -28,14 +28,13 @@ import Page7Sub23 from "./Pages_sub7/Page7Sub23";
 import Page7Sub24 from "./Pages_sub7/Page7Sub24";
 import Page7Sub25 from "./Pages_sub7/Page7Sub25";
 
-
 interface TileData {
   image: string;
   description: string;
   page: string;
 }
 
-const tileData: TileData[] = [
+const tileData7: TileData[] = [
   {
     image: "src/Pages_main/Northern img/nallur.jpg",
     description: "Nallur Kandaswamy temple",
@@ -167,9 +166,8 @@ const tileData: TileData[] = [
 const TileGrid7: React.FC = () => {
   return (
     <div>
-      {/* Main tile grid for subpages */}
       <div className="tile-grid">
-        {tileData.map((tile, index) => (
+        {tileData7.map((tile, index) => (
           <Tile
             key={index}
             image={tile.image}
@@ -179,7 +177,6 @@ const TileGrid7: React.FC = () => {
         ))}
       </div>
 
-      {/* Routes for the subpages */}
       <Routes>
         <Route path="Page7Sub1" element={<Page7Sub1 />} />
         <Route path="Page7Sub2" element={<Page7Sub2 />} />
@@ -211,4 +208,5 @@ const TileGrid7: React.FC = () => {
   );
 };
 
+export { tileData7 };
 export default TileGrid7;

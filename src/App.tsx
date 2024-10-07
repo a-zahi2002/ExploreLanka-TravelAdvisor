@@ -1,4 +1,6 @@
+// App.tsx
 import React from "react";
+import { SearchProvider } from "./SearchContext";
 import "./App.css";
 import TileGrid from "./TileGrid";
 import Footer from "./Footer";
@@ -6,17 +8,13 @@ import Navbar from "./Navbar/Navbar";
 
 function App() {
   return (
-    <div className="app">
-      <div>
+    <SearchProvider>
+      <div className="app">
         <Navbar />
-      </div>
-
-      <TileGrid />
-
-      <div>
+        <TileGrid />
         <Footer />
       </div>
-    </div>
+    </SearchProvider>
   );
 }
 

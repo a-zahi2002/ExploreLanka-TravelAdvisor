@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import "./TileGrid1.css";
+import "./TileGrid1.css"; // Ensure you have the correct CSS file name
 import Tile from "../Tile";
 import Page9Sub1 from "./Pages_sub9/Page9Sub1";
 import Page9Sub2 from "./Pages_sub9/Page9Sub2";
@@ -24,91 +24,95 @@ interface TileData {
   page: string;
 }
 
-const tileData: TileData[] = [
+// Renamed the tile data to tileData9 for consistency
+const tileData9: TileData[] = [
   {
     image: "src/assets/western img/gangaramaya.jpg",
     description: "Gangaramaya Temple",
-    page: "Page9Sub1", // Note: Removed the leading '/'
+    page: "Page9Sub1",
   },
   {
     image: "src/assets/western img/galle-face-green-2.jpg",
     description: "Galle Face Green",
-    page: "Page9Sub2", // Note: Removed the leading '/'
+    page: "Page9Sub2",
   },
   {
     image: "src/assets/western img/viharamaha devi park.jpg",
     description: "Vihara Maha Devi Park",
-    page: "Page9Sub3", // Note: Removed the leading '/'
+    page: "Page9Sub3",
   },
   {
     image: "src/assets/western img/colombo_national_museum.jpg",
     description: "Colombo National Museum",
-    page: "Page9Sub4", // Note: Removed the leading '/'
+    page: "Page9Sub4",
   },
   {
     image: "src/assets/western img/Independence_Commemoration_Hall.jpg",
     description: "Independence Memorial Hall",
-    page: "Page9Sub5", // Note: Removed the leading '/'
+    page: "Page9Sub5",
   },
   {
     image: "src/assets/western img/Beira_Lake.jpg",
     description: "Beira Lake",
-    page: "Page9Sub6", // Note: Removed the leading '/'
+    page: "Page9Sub6",
   },
   {
     image: "src/assets/western img/Jami-Ul-Alfar-Mosque.jpg",
     description: "Jami Ul-Alfar Mosque",
-    page: "Page9Sub7", // Note: Removed the leading '/'
+    page: "Page9Sub7",
   },
   {
     image: "src/assets/western img/wolvendal church.jpg",
     description: "Wolvendaal Church",
-    page: "Page9Sub8", // Note: Removed the leading '/'
+    page: "Page9Sub8",
   },
   {
     image: "src/assets/western img/kelani temple.jpg",
     description: "Kelaniya Raja Maha Vihara",
-    page: "Page9Sub9", // Note: Removed the leading '/'
+    page: "Page9Sub9",
   },
   {
     image: "src/assets/western img/Sri-Kailawasanathan1.jpg",
     description: "Sri Kailawasanathan Swami Devasthanam Kovil",
-    page: "Page9Sub10", // Note: Removed the leading '/'
+    page: "Page9Sub10",
   },
   {
     image: "src/assets/western img/the-old-colombo-dutch.jpg",
     description: "Dutch Hospital Shopping Precinct",
-    page: "Page9Sub11", // Note: Removed the leading '/'
+    page: "Page9Sub11",
   },
   {
     image: "src/assets/western img/brief garden.webp",
     description: "Brief Garden",
-    page: "Page9Sub12", // Note: Removed the leading '/'
+    page: "Page9Sub12",
   },
   {
     image: "src/assets/western img/ella falls.webp",
     description: "Alagiyawanna Ella Falls",
-    page: "Page9Sub13", // Note: Removed the leading '/'
+    page: "Page9Sub13",
   },
   {
     image: "src/assets/western img/Arcade-at-Independence-Square.png",
     description: "Arcade Independence Square",
-    page: "Page9Sub14", // Note: Removed the leading '/'
+    page: "Page9Sub14",
   },
   {
     image: "src/assets/western img/Bandiyamulla Tombstone.jpeg",
     description: "Bandiyamulla Tombstone",
-    page: "Page9Sub15", // Note: Removed the leading '/'
+    page: "Page9Sub15",
   },
   // Add more tile data as needed
 ];
+
+// Export the tile data as tileData9
+export { tileData9 };
 
 const TileGrid9: React.FC = () => {
   return (
     <div>
       {/* Main tile grid for subpages */}
       <div className="tile-grid">
-        {tileData.map((tile, index) => (
+        {tileData9.map((tile, index) => (
           <Tile
             key={index}
             image={tile.image}

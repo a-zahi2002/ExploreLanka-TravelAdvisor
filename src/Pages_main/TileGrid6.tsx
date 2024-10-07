@@ -33,7 +33,7 @@ interface TileData {
   page: string;
 }
 
-const tileData: TileData[] = [
+const tileData6: TileData[] = [
   {
     image: "https://picsum.photos/200/300",
     description: "Arugam Bay",
@@ -121,7 +121,7 @@ const tileData: TileData[] = [
   },
   {
     image: "https://picsum.photos/200/300",
-    description: "Katt ankudy Mosque",
+    description: "Kattankudy Mosque",
     page: "Page6Sub18",
   },
   {
@@ -156,12 +156,15 @@ const tileData: TileData[] = [
   },
 ];
 
+// Export the tile data as tileData6
+export { tileData6 };
+
 const TileGrid6: React.FC = () => {
   return (
     <div>
       {/* Main tile grid for subpages */}
       <div className="tile-grid">
-        {tileData.map((tile, index) => (
+        {tileData6.map((tile, index) => (
           <Tile
             key={index}
             image={tile.image}

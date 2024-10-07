@@ -22,68 +22,67 @@ interface TileData {
   page: string;
 }
 
-const tileData: TileData[] = [
+export const tileData1: TileData[] = [
   {
     image: "src/Pages_main/sabaragamuwa img/img1.jpg",
     description: "Pinnawala Elephant Orphanage",
-    page: "Page1Sub1", // Note: Removed the leading '/'
+    page: "Page1Sub1",
   },
   {
     image: "src/Pages_main/sabaragamuwa img/img2.jpg",
     description: "Adam’s Peak/Sri Padaya",
-    page: "Page1Sub2", // Note: Removed the leading '/'
+    page: "Page1Sub2",
   },
   {
     image: "src/Pages_main/sabaragamuwa img/img3.jpg",
     description: "Great World’s End Drop",
-    page: "Page1Sub3", // Note: Removed the leading '/'
+    page: "Page1Sub3",
   },
   {
     image: "src/Pages_main/sabaragamuwa img/img4.jpg",
     description: "Bopath Ella Falls",
-    page: "Page1Sub4", // Note: Removed the leading '/'
+    page: "Page1Sub4",
   },
   {
-    image:"src/Pages_main/sabaragamuwa img/img5.webp",
+    image: "src/Pages_main/sabaragamuwa img/img5.webp",
     description: "Kithulgala Belilena Cave",
-    page: "Page1Sub5", // Note: Removed the leading '/'
+    page: "Page1Sub5",
   },
   {
     image: "src/Pages_main/sabaragamuwa img/img6.jpg",
     description: "Kirindi Ella Waterfall",
-    page: "Page1Sub6", // Note: Removed the leading '/'
+    page: "Page1Sub6",
   },
   {
     image: "src/Pages_main/sabaragamuwa img/img7.jpg",
     description: "Millennium Elephant Foundation",
-    page: "Page1Sub7", // Note: Removed the leading '/'
+    page: "Page1Sub7",
   },
   {
-    image:"src/Pages_main/sabaragamuwa img/img8.webp",
+    image: "src/Pages_main/sabaragamuwa img/img8.webp",
     description: "Bibile Rock",
-    page: "Page1Sub8", // Note: Removed the leading '/'
+    page: "Page1Sub8",
   },
   {
     image: "src/Pages_main/sabaragamuwa img/img9.jpg",
     description: "Kithulgala Water Rafting",
-    page: "Page1Sub9", // Note: Removed the leading '/'
+    page: "Page1Sub9",
   },
   {
     image: "src/Pages_main/sabaragamuwa img/img10.jpg",
-    description: "Samanalawewa Resorvior",
-    page: "Page1Sub10", // Note: Removed the leading '/'
+    description: "Samanalawewa Reservoir",
+    page: "Page1Sub10",
   },
   {
-    image:"src/Pages_main/sabaragamuwa img/img11.jpg",
+    image: "src/Pages_main/sabaragamuwa img/img11.jpg",
     description: "Balangoda View Point",
-    page: "Page1Sub11", // Note: Removed the leading '/'
+    page: "Page1Sub11",
   },
   {
     image: "src/Pages_main/sabaragamuwa img/img12.jpg",
     description: "Alagalla Mountain Range",
-    page: "Page1Sub12", // Note: Removed the leading '/'
+    page: "Page1Sub12",
   },
-  // Add more tile data as needed
 ];
 
 const TileGrid1: React.FC = () => {
@@ -91,7 +90,7 @@ const TileGrid1: React.FC = () => {
     <div>
       {/* Main tile grid for subpages */}
       <div className="tile-grid">
-        {tileData.map((tile, index) => (
+        {tileData1.map((tile, index) => (
           <Tile
             key={index}
             image={tile.image}

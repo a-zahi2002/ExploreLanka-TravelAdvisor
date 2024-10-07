@@ -18,61 +18,59 @@ interface TileData {
   page: string;
 }
 
-const tileData: TileData[] = [
+const tileData4: TileData[] = [
   {
     image: "src/uva img/img1.jpg",
     description: "Nine Arches Railway Bridge",
-    page: "Page4Sub1", // Note: Removed the leading '/'
+    page: "Page4Sub1",
   },
   {
     image: "src/uva img/img2.jpg",
     description: "Kirchhayn Bungalow",
-    page: "Page4Sub2", // Note: Removed the leading '/'
+    page: "Page4Sub2",
   },
   {
     image: "src/uva img/img3.jpg",
     description: "Bambarakanda Falls",
-    page: "Page4Sub3", // Note: Removed the leading '/'
+    page: "Page4Sub3",
   },
   {
     image: "src/uva img/img4.jpg",
     description: "Diyaluma Falls",
-    page: "Page4Sub4", // Note: Removed the leading '/'
+    page: "Page4Sub4",
   },
   {
     image: "src/uva img/img5.JPG",
     description: "Pilkington Point",
-    page: "Page4Sub5", // Note: Removed the leading '/'
+    page: "Page4Sub5",
   },
   {
     image: "src/uva img/img6.jpg",
     description: "Porawagala View Point",
-    page: "Page4Sub6", // Note: Removed the leading '/'
+    page: "Page4Sub6",
   },
   {
     image: "src/uva img/img7.jpg",
     description: "Ella Rock",
-    page: "Page4Sub7", // Note: Removed the leading '/'
+    page: "Page4Sub7",
   },
   {
     image: "src/uva img/img8.jpg",
     description: "Nil Diya Pokuna",
-    page: "Page4Sub8", // Note: Removed the leading '/'
+    page: "Page4Sub8",
   },
   {
     image: "src/uva img/img9.jpg",
     description: "Kataragama Dewalaya",
-    page: "Page4Sub9", // Note: Removed the leading '/'
+    page: "Page4Sub9",
   },
-  // Add more tile data as needed
 ];
 
 const TileGrid4: React.FC = () => {
   return (
     <div>
-      {/* Main tile grid for subpages */}
       <div className="tile-grid">
-        {tileData.map((tile, index) => (
+        {tileData4.map((tile, index) => (
           <Tile
             key={index}
             image={tile.image}
@@ -82,7 +80,6 @@ const TileGrid4: React.FC = () => {
         ))}
       </div>
 
-      {/* Routes for the subpages */}
       <Routes>
         <Route path="Page4Sub1" element={<Page4Sub1 />} />
         <Route path="Page4Sub2" element={<Page4Sub2 />} />
@@ -98,4 +95,5 @@ const TileGrid4: React.FC = () => {
   );
 };
 
+export { tileData4 };
 export default TileGrid4;
