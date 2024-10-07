@@ -57,7 +57,7 @@ const tileData = [
     page: "/page6",
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/Pages_main/Northern img/Northern-tile-cover-page-new.jpg",
     description: "Northern Province",
     page: "/page7",
   },
