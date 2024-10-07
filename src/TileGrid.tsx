@@ -161,4 +161,5 @@ const TileGrid: React.FC = () => {
   );
 };
 
+export { tileData };
 export default TileGrid;
