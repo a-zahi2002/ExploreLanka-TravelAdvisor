@@ -18,99 +18,95 @@ import Page3Sub13 from "./Pages_sub3/Page3Sub13";
 import Page3Sub14 from "./Pages_sub3/Page3Sub14";
 import Page3Sub15 from "./Pages_sub3/Page3Sub15";
 
-
-
 interface TileData {
   image: string;
   description: string;
   page: string;
 }
 
-const tileData: TileData[] = [
+const tileData3: TileData[] = [
   {
     image: "src/southern img/img1.jpg",
     description: "Galle Fort",
-    page: "Page3Sub1", // Note: Removed the leading '/'
+    page: "Page3Sub1",
   },
   {
     image: "src/southern img/img2.jpg",
-    description: "Mirissa ",
-    page: "Page3Sub2", // Note: Removed the leading '/'
+    description: "Mirissa",
+    page: "Page3Sub2",
   },
-  
   {
     image: "src/southern img/img3.jpg",
     description: "Bundala National Park",
-    page: "Page3Sub3", // Note: Removed the leading '/'
+    page: "Page3Sub3",
   },
   {
     image: "src/southern img/img4.jpg",
     description: "Unawatuna Beach",
-    page: "Page3Sub4", // Note: Removed the leading '/'
+    page: "Page3Sub4",
   },
   {
     image: "src/southern img/img5.jpg",
     description: "Yala National Park",
-    page: "Page3Sub5", // Note: Removed the leading '/'
+    page: "Page3Sub5",
   },
   {
     image: "src/southern img/img6.jpg",
     description: "Hikkaduwa",
-    page: "Page3Sub6", // Note: Removed the leading '/'
+    page: "Page3Sub6",
   },
   {
     image: "src/southern img/img7.jpg",
-    description: " Sea Turtle Farm",
-    page: "Page3Sub7", // Note: Removed the leading '/'
+    description: "Sea Turtle Farm",
+    page: "Page3Sub7",
   },
   {
     image: "src/southern img/img8.jpg",
     description: "Dondara Head Lighthouse",
-    page: "Page3Sub8", // Note: Removed the leading '/'
+    page: "Page3Sub8",
   },
   {
     image: "src/southern img/img9.jpg",
     description: "Rumassala",
-    page: "Page3Sub9", // Note: Removed the leading '/'
+    page: "Page3Sub9",
   },
   {
     image: "src/southern img/img10.jpg",
     description: "Mulgirigala Raja Maha Vihara",
-    page: "Page3Sub10", // Note: Removed the leading '/'
+    page: "Page3Sub10",
   },
   {
     image: "src/southern img/img11.jpg",
     description: "Coconut Tree Hill",
-    page: "Page3Sub11", // Note: Removed the leading '/'
+    page: "Page3Sub11",
   },
   {
     image: "src/southern img/img12.jpg",
     description: "Kalametiya Bird Sanctuary",
-    page: "Page3Sub12", // Note: Removed the leading '/'
+    page: "Page3Sub12",
   },
   {
     image: "src/southern img/img13.jpg",
     description: "Bentota River Safari",
-    page: "Page3Sub13", // Note: Removed the leading '/'
+    page: "Page3Sub13",
   },
   {
     image: "src/southern img/img14.jpg",
     description: "Ridiyagama Safari Park",
-    page: "Page3Sub14", // Note: Removed the leading '/'
+    page: "Page3Sub14",
   },
   {
     image: "src/southern img/img15.jpg",
     description: "Handunugoda Tea Estate",
-    page: "Page3Sub15", // Note: Removed the leading '/'
-  },// Add more tile data as needed
+    page: "Page3Sub15",
+  },
 ];
 
 const TileGrid3: React.FC = () => {
   return (
     <div>
-      {/* Main tile grid for subpages */}
       <div className="tile-grid">
-        {tileData.map((tile, index) => (
+        {tileData3.map((tile, index) => (
           <Tile
             key={index}
             image={tile.image}
@@ -120,7 +116,6 @@ const TileGrid3: React.FC = () => {
         ))}
       </div>
 
-      {/* Routes for the subpages */}
       <Routes>
         <Route path="Page3Sub1" element={<Page3Sub1 />} />
         <Route path="Page3Sub2" element={<Page3Sub2 />} />
@@ -142,4 +137,5 @@ const TileGrid3: React.FC = () => {
   );
 };
 
+export { tileData3 };
 export default TileGrid3;

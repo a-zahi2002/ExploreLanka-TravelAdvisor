@@ -12,21 +12,21 @@ interface TileData {
   page: string;
 }
 
-const tileData: TileData[] = [
+const tileData7: TileData[] = [
   {
     image: "https://picsum.photos/200/300",
     description: "Tile 1",
-    page: "Page7Sub1", // Note: Removed the leading '/'
+    page: "Page7Sub1",
   },
   {
     image: "https://picsum.photos/200/300",
     description: "Tile 2",
-    page: "Page7Sub2", // Note: Removed the leading '/'
+    page: "Page7Sub2",
   },
   {
     image: "https://picsum.photos/200/300",
     description: "Tile 3",
-    page: "Page7Sub3", // Note: Removed the leading '/'
+    page: "Page7Sub3",
   },
   // Add more tile data as needed
 ];
@@ -34,9 +34,8 @@ const tileData: TileData[] = [
 const TileGrid7: React.FC = () => {
   return (
     <div>
-      {/* Main tile grid for subpages */}
       <div className="tile-grid">
-        {tileData.map((tile, index) => (
+        {tileData7.map((tile, index) => (
           <Tile
             key={index}
             image={tile.image}
@@ -46,7 +45,6 @@ const TileGrid7: React.FC = () => {
         ))}
       </div>
 
-      {/* Routes for the subpages */}
       <Routes>
         <Route path="Page7Sub1" element={<Page7Sub1 />} />
         <Route path="Page7Sub2" element={<Page7Sub2 />} />
@@ -56,4 +54,5 @@ const TileGrid7: React.FC = () => {
   );
 };
 
+export { tileData7 };
 export default TileGrid7;

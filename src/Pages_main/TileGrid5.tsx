@@ -33,7 +33,7 @@ interface TileData {
   page: string;
 }
 
-const tileData: TileData[] = [
+const tileData5: TileData[] = [
   {
     image: "https://picsum.photos/200/300",
     description: "Ruwanwelisaya Stupa",
@@ -159,9 +159,8 @@ const tileData: TileData[] = [
 const TileGrid5: React.FC = () => {
   return (
     <div>
-      {/* Main tile grid for subpages */}
       <div className="tile-grid">
-        {tileData.map((tile, index) => (
+        {tileData5.map((tile, index) => (
           <Tile
             key={index}
             image={tile.image}
@@ -171,7 +170,6 @@ const TileGrid5: React.FC = () => {
         ))}
       </div>
 
-      {/* Routes for the subpages */}
       <Routes>
         <Route path="Page5Sub1" element={<Page5Sub1 />} />
         <Route path="Page5Sub2" element={<Page5Sub2 />} />
@@ -202,4 +200,5 @@ const TileGrid5: React.FC = () => {
   );
 };
 
+export { tileData5 };
 export default TileGrid5;
