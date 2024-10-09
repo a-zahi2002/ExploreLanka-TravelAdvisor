@@ -89,6 +89,11 @@ const combinedTileData = [
 const TileGrid: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState<string>("");
 
+  // Extract all descriptions for the search bar suggestions
+  const allDescriptions = [...tileData, ...combinedTileData].map(
+    (tile) => tile.description
+  );
+
   // Function to handle search input from the SearchBar component
   const handleSearch = (query: string) => {
     setSearchQuery(query.toLowerCase());
@@ -124,7 +129,11 @@ const TileGrid: React.FC = () => {
 
               {/* Search bar section */}
               <div className="search-bar-container">
-                <SearchBar onSearch={handleSearch} />
+                {/* Pass the descriptions to the SearchBar */}
+                <SearchBar
+                  onSearch={handleSearch}
+                  suggestions={allDescriptions}
+                />
               </div>
 
               {/* Tile grid */}

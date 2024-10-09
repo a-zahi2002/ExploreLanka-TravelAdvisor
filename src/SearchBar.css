@@ -1,37 +1,65 @@
 .search-bar {
-    position: relative; /* Change to relative so it stays in the document flow */
-    margin: 0 auto;
-    display: flex;
-    justify-content: center; /* Center the search bar */
-    width: 80%; /* Adjust the width */
-    max-width: 1000px; /* Limit the maximum width */
-    background-color: white;
-    border-radius: 50px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-    z-index: 2;
-  }
-  
-  .search-bar input {
-    flex: 1;
-    border: none;
-    outline: none;
-    padding: 10px 20px;
-    border-radius: 50px;
-    font-size: 16px;
-  }
-  
-  .search-bar button {
-    background-color: #46c974;
-    color: white;
-    border: none;
-    border-radius: 50px;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  
-  .search-bar button:hover {
-    background-color: #136813;
-  }
-  
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  max-width: 1000px;
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 2;
+}
+
+.search-bar input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 16px;
+}
+
+.search-bar button {
+  background-color: #46c974;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-bar button:hover {
+  background-color: #136813;
+}
+
+/* Dropdown Styling */
+.suggestions-dropdown {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ccc;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 100;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.suggestions-dropdown li {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.suggestions-dropdown li:hover {
+  background-color: #46c974; /* Themed with the same green color */
+  color: white;
+}
