@@ -80,7 +80,7 @@ const tileData6: TileData[] = [
     page: "Page6Sub9",
   },
   {
-    image: "src/EP_Images/pasikuda.jpg",
+    image: "src/EP_Images/pasikkuda.jpg",
     description: "Pasikudah Beach",
     page: "Page6Sub10",
   },
