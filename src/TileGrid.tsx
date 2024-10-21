@@ -52,7 +52,7 @@ const tileData = [
     page: "/page5",
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/EP_Images/elephant rock.jpg",
     description: "Eastern Province",
     page: "/page6",
   },
