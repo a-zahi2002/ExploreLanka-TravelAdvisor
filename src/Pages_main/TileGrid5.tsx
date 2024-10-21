@@ -13,7 +13,7 @@ import Page5Sub8 from "./Pages_sub5/Page5Sub8";
 import Page5Sub9 from "./Pages_sub5/Page5Sub9";
 import Page5Sub10 from "./Pages_sub5/Page5Sub10";
 import Page5Sub11 from "./Pages_sub5/Page5Sub11";
-import Page5Sub12 from "./Pages_sub5/Page5SUb12";
+import Page5Sub12 from "./Pages_sub5/Page5Sub12";
 import Page5Sub13 from "./Pages_sub5/Page5Sub13";
 import Page5Sub14 from "./Pages_sub5/Page5Sub14";
 import Page5Sub15 from "./Pages_sub5/Page5Sub15";
@@ -23,7 +23,7 @@ import Page5Sub18 from "./Pages_sub5/Page5Sub18";
 import Page5Sub19 from "./Pages_sub5/Page5Sub19";
 import Page5Sub20 from "./Pages_sub5/Page5Sub20";
 import Page5Sub21 from "./Pages_sub5/Page5Sub21";
-import Page5Sub22 from "./Pages_sub5/Page5SUb22";
+import Page5Sub22 from "./Pages_sub5/Page5Sub22";
 import Page5Sub23 from "./Pages_sub5/Page5Sub23";
 import Page5Sub24 from "./Pages_sub5/Page5Sub24";
 
@@ -33,124 +33,124 @@ interface TileData {
   page: string;
 }
 
-const tileData: TileData[] = [
+const tileData5: TileData[] = [
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/NCP_Images/Ruwanwelisaya_1.jpg",
     description: "Ruwanwelisaya Stupa",
     page: "Page5Sub1",
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/NCP_Images/SriMahaBhodiya.jpg",
     description: "Jaya Sri Maha Bodhi",
     page: "Page5Sub2",
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/NCP_Images/Isurumuniya.jpg",
     description: "Isurumuniya Temple",
     page: "Page5Sub3",
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/NCP_Images/Awukana.jpg",
     description: "Avukana Buddha Statue",
     page: "Page5Sub4",
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/NCP_Images/Lowamahapaya.jpg",
     description: "Lovamahapaya (Brazen Palace)",
     page: "Page5Sub5",
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/NCP_Images/RoyalPalaceOfKingVijayabahu.jpg",
     description: "Royal Palace of King Vijayabahu I",
     page: "Page5Sub6",
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/NCP_Images/KuttamPokuna.jpg",
     description: "Twin Ponds (Kuttam Pokuna)",
     page: "Page5Sub7",
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/NCP_Images/Anuradhapua_archeological_museum.jpg",
     description: "Anuradhapura Archaeological Museum",
     page: "Page5Sub8",
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/NCP_Images/RanmasuUyana.jpg",
     description: "Ranmasu Uyana",
     page: "Page5Sub9",
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/NCP_Images/KaludiyaPokuna.jpg",
     description: "Kaludiya Pokuna",
     page: "Page5Sub10",
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/NCP_Images/PadaviyaTank.jpg",
     description: "Padaviya Tank",
     page: "Page5Sub11",
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/NCP_Images/Kalawewa_1.jpg",
     description: "Kala Wewa Reservoir",
     page: "Page5Sub12",
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/NCP_Images/Polonnaruwa_watadhage.jpg",
     description: "Polonnaruwa Vatadage",
     page: "Page5Sub13",
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/NCP_Images/Lankathilaka.jpg",
     description: "Lankathilaka Image House",
     page: "Page5Sub14",
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/NCP_Images/Royal palace of King Parakramabahu.jpg",
     description: "Royal Palace of King Parakramabahu",
     page: "Page5Sub15",
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/NCP_Images/AlahanaPirivena.jpg",
     description: "Alahana Pirivena",
     page: "Page5Sub16",
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/NCP_Images/RankothVehera.jpg",
     description: "Rankoth Vehera",
     page: "Page5Sub17",
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/NCP_Images/GalVihara.jpg",
     description: "Gal Vihara",
     page: "Page5Sub18",
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/NCP_Images/Thuparama.jpg",
     description: "Thuparama Dagaba",
     page: "Page5Sub19",
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/NCP_Images/Hatadage.jpg",
     description: "Hatadage",
     page: "Page5Sub20",
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/NCP_Images/NisankalathaMandapaya.jpg",
     description: "Nissanka Latha Mandapaya",
     page: "Page5Sub21",
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/NCP_Images/SathmahalPrasadaya.jpg",
     description: "Satmahal Prasada",
     page: "Page5Sub22",
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/NCP_Images/PolonnaruwaMuseum.jpg",
     description: "Polonnaruwa Museum",
     page: "Page5Sub23",
   },
   {
-    image: "https://picsum.photos/200/300",
+    image: "src/NCP_Images/ManikVihara.jpg",
     description: "Menik Vihara",
     page: "Page5Sub24",
   },
@@ -159,9 +159,8 @@ const tileData: TileData[] = [
 const TileGrid5: React.FC = () => {
   return (
     <div>
-      {/* Main tile grid for subpages */}
       <div className="tile-grid">
-        {tileData.map((tile, index) => (
+        {tileData5.map((tile, index) => (
           <Tile
             key={index}
             image={tile.image}
@@ -171,7 +170,6 @@ const TileGrid5: React.FC = () => {
         ))}
       </div>
 
-      {/* Routes for the subpages */}
       <Routes>
         <Route path="Page5Sub1" element={<Page5Sub1 />} />
         <Route path="Page5Sub2" element={<Page5Sub2 />} />
@@ -202,4 +200,5 @@ const TileGrid5: React.FC = () => {
   );
 };
 
+export { tileData5 };
 export default TileGrid5;

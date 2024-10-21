@@ -11,4 +11,6 @@ const Page7Sub6: React.FC = () => {
   );
 };
 
+
 export default Page7Sub6;
+

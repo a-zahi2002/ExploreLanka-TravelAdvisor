@@ -21,75 +21,78 @@ interface TileData {
   page: string;
 }
 
-const tileData: TileData[] = [
+const tileData8: TileData[] = [
   {
     image: "/src/assets/central img/1.jpg",
     description: "Sembuwatta Lake",
-    page: "Page8Sub1", // Note: Removed the leading '/'
+    page: "Page8Sub1",
   },
   {
     image: "/src/assets/central img/2.jpg",
     description: "Riverston",
-    page: "Page8Sub2", // Note: Removed the leading '/'
+    page: "Page8Sub2",
   },
   {
     image: "/src/assets/central img/3.jpg",
-    description: "Wasgamuwa National Park ",
-    page: "Page8Sub3", // Note: Removed the leading '/'
+    description: "Wasgamuwa National Park",
+    page: "Page8Sub3",
   },
   {
     image: "/src/assets/central img/4.jpg",
     description: "Temple of the Sacred Tooth Relic (Sri Dalada Maligawa)",
-    page: "Page8Sub4", // Note: Removed the leading '/'
+    page: "Page8Sub4",
   },
   {
     image: "/src/assets/central img/5.jpg",
     description: "Royal Botanical Gardens, Peradeniya",
-    page: "Page8Sub5", // Note: Removed the leading '/'
+    page: "Page8Sub5",
   },
   {
     image: "/src/assets/central img/6.jpg",
     description: "Udawatta Kele Sanctuary",
-    page: "Page8Sub6", // Note: Removed the leading '/'
+    page: "Page8Sub6",
   },
   {
     image: "/src/assets/central img/7.jpg",
     description: "Horton Plains National Park & World's End",
-    page: "Page8Sub7", // Note: Removed the leading '/'
+    page: "Page8Sub7",
   },
   {
     image: "/src/assets/central img/8.jpg",
     description: "Gregory Lake",
-    page: "Page8Sub8", // Note: Removed the leading '/'
+    page: "Page8Sub8",
   },
   {
     image: "/src/assets/central img/9.jpg",
-    description: "Seetha Amman Temple ",
-    page: "Page8Sub9", // Note: Removed the leading '/'
+    description: "Seetha Amman Temple",
+    page: "Page8Sub9",
   },
   {
     image: "/src/assets/central img/10.jpg",
     description: "Ceylon Tea Museum",
-    page: "Page8Sub10", // Note: Removed the leading '/'
+    page: "Page8Sub10",
   },
   {
     image: "/src/assets/central img/11.jpg",
     description: "Dambulla Cave Temple",
-    page: "Page8Sub11", // Note: Removed the leading '/'
+    page: "Page8Sub11",
   },
   {
     image: "/src/assets/central img/12.jpg",
     description: "St. Clair’s Falls",
-    page: "Page8Sub12", // Note: Removed the leading '/'
+    page: "Page8Sub12",
   },
 ];
+
+// Export the tile data as tileData8
+export { tileData8 };
 
 const TileGrid8: React.FC = () => {
   return (
     <div>
       {/* Main tile grid for subpages */}
       <div className="tile-grid">
-        {tileData.map((tile, index) => (
+        {tileData8.map((tile, index) => (
           <Tile
             key={index}
             image={tile.image}

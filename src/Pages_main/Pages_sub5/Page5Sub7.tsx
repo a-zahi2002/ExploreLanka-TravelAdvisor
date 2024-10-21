@@ -1,22 +1,26 @@
 import React from "react";
-import "../Pages_sub1.css";
+import "../Pages_Sub1.css";
 
 const Page5Sub7: React.FC = () => {
   return (
     <div className="pages_sub1">
       <div className="content-container">
-        <h1>Mirisaveti Stupa</h1>
+        <h1>Twin Ponds (Kuttam Pokuna)</h1>
         <p>
-          The Mirisaveti Stupa is a historic stupa located in the ancient city
-          of Anuradhapura, built by King Dutugemunu in the 2nd century B.C. This
-          stupa is said to contain a relic of the Buddha, making it a sacred
-          site for Buddhists. The stupa is surrounded by a complex of ruins,
-          including ancient temples and monasteries, offering a glimpse into the
-          lives of the monks and devotees who once inhabited the area. Visitors
-          can explore the site, taking in the history and spirituality that
-          permeates the air. The stupa is also a great spot for photography,
-          with its unique architecture and serene surroundings making it a
-          picturesque destination.
+          Discover the serene Twin Ponds, a stunning ancient wonder that dates
+          back to the 8th century. This historic site is a testament to Sri
+          Lanka's rich cultural heritage, offering breathtaking views of the
+          surrounding landscape. The ponds' unique architecture and stunning
+          artwork make it a must-visit destination for anyone interested in
+          history, art, and culture. As you explore the ponds' many ruins,
+          you'll discover a treasure trove of ancient artifacts and relics,
+          including intricate carvings, sculptures, and murals. The ponds'
+          tranquil atmosphere is further enhanced by the surrounding gardens,
+          which are home to a variety of flora and fauna. Twin Ponds is a place
+          of great historical significance, and visitors can feel the energy and
+          tranquility of the ponds as they explore its many wonders . Whether
+          you're a history enthusiast, an art lover, or simply looking for a
+          peaceful retreat, Twin Ponds is a must-visit destination in Sri Lanka.
         </p>
       </div>
     </div>

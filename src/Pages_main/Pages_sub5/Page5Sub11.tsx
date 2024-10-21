@@ -1,20 +1,24 @@
 import React from "react";
-import "../Pages_sub1.css";
+import "../Pages_Sub1.css";
 
 const Page5Sub11: React.FC = () => {
   return (
     <div className="pages_sub1">
       <div className="content-container">
-        <h1>Vessagiriya</h1>
+        <h1>Padaviya Tank</h1>
         <p>
-          Vessagiriya is a historic site located in the ancient city of
-          Anuradhapura, built by King Devanampiya Tissa in the 3rd century B.C.
-          This site is said to have been used as a monastery for Buddhist monks,
-          and its unique architecture and serene surroundings make it a great
-          spot for photography. Visitors can explore the site, taking in the
-          history and spirituality that permeates the air. The site is also a
-          great example of ancient Sri Lankan architecture, with its intricate
-          carvings and ornate details.
+          Discover the ancient Padaviya Tank, a stunning historic site that
+          dates back to the 12th century. This sacred site is a must-visit
+          destination for anyone interested in history, art, and culture. As you
+          explore the tank's many ruins, you'll discover a treasure trove of
+          ancient artifacts and relics, including intricate carvings,
+          sculptures, and murals. The tank's tranquil atmosphere is further
+          enhanced by the surrounding gardens, which are home to a variety of
+          flora and fauna. Padaviya Tank is a place of great historical
+          significance, and visitors can feel the energy and tranquility of the
+          tank as they explore its many wonders. Whether you're a history
+          enthusiast, an art lover, or simply looking for a peaceful retreat,
+          Padaviya Tank is a must-visit destination in Sri Lanka.
         </p>
       </div>
     </div>
