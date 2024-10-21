@@ -3,7 +3,7 @@ import "./SearchBar.css";
 
 interface SearchBarProps {
   onSearch: (searchTerm: string) => void;
-  suggestions: string[]; // Accept suggestions as a prop
+  suggestions: string[];
 }
 
 const SearchBar: React.FC<SearchBarProps> = ({ onSearch, suggestions }) => {
@@ -11,7 +11,6 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch, suggestions }) => {
   const [filteredSuggestions, setFilteredSuggestions] = useState<string[]>([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
 
-  // Handles input change for search bar
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
     setSearchTerm(value);
@@ -27,18 +26,16 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch, suggestions }) => {
     }
   };
 
-  // Handles form submit
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
-    onSearch(searchTerm); // Calls the onSearch function passed as a prop
-    setShowSuggestions(false); // Hide suggestions after searching
+    onSearch(searchTerm);
+    setShowSuggestions(false);
   };
 
-  // Handles suggestion click
   const handleSuggestionClick = (suggestion: string) => {
     setSearchTerm(suggestion);
-    setShowSuggestions(false); // Close dropdown
-    onSearch(suggestion); // Automatically search when a suggestion is clicked
+    setShowSuggestions(false);
+    onSearch(suggestion);
   };
 
   return (
@@ -53,7 +50,6 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch, suggestions }) => {
         <button type="submit">Search</button>
       </form>
 
-      {/* Dropdown for suggestions */}
       {showSuggestions && filteredSuggestions.length > 0 && (
         <ul className="suggestions-dropdown">
           {filteredSuggestions.map((suggestion, index) => (

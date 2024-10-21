@@ -9,7 +9,11 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Ensure body takes full height of the viewport */
+  min-height: 100vh; /* Ensures the body takes at least the full height of the viewport */
+}
+
+.content {
+  flex: 1; /* This allows the content area to grow and take up available space */
 }
 
 .footer {
@@ -17,8 +21,9 @@ body {
   color: white;
   padding: 20px;
   text-align: center;
-  margin-top: auto; /* Pushes the footer to the bottom */
   width: 100%;
+  /* Optional styles for better visibility */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for a nice effect */
 }
 
 .footer-content {
