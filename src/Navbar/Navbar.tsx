@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <header>
       <nav className='nav'>
-      <a href ="#" className="logo"><img src="/Long Logo.png" alt="logo"></img></a>
+      <a href ="#" className="logo"><img src="./Long Logo.png" alt="logo"></img></a>
         <ul className='nav-menu'>
           <li><a href='#'>Home</a></li>
           <li><a href='#'>Explore</a></li>
