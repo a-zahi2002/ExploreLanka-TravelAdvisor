@@ -1,5 +1,5 @@
 import React from "react";
-import "../Pages_sub1.css";
+import "../Pages_Sub1.css";
 
 const Page5Sub4: React.FC = () => {
   return (
@@ -7,17 +7,21 @@ const Page5Sub4: React.FC = () => {
       <div className="content-container">
         <h1>Avukana Buddha Statue</h1>
         <p>
-          The Avukana Buddha Statue is a monumental granite statue standing over
-          12 meters tall, dating back to the 5th century. Carved directly from a
-          rock face, the statue depicts the Buddha in the asisa mudra (blessing
-          posture), symbolizing compassion and protection. Its intricately
-          detailed robes and finely crafted features highlight the exceptional
-          craftsmanship of ancient Sri Lankan artisans. The statue is situated
-          in a serene environment, surrounded by lush greenery and a tranquil
-          lake, creating a peaceful ambiance that complements the spiritual
-          essence of the statue. Visitors can experience the beauty of nature
-          and the artistic mastery of ancient Sri Lanka in this captivating
-          setting.
+          Marvel at the majestic Avukana Buddha Statue, a 12-meter-tall
+          masterpiece of ancient Sri Lankan artistry. This serene giant is
+          nestled in a tranquil setting, inviting visitors to pause and reflect
+          on the beauty of Buddhist philosophy. The statue 's intricate carvings
+          and stunning architecture make it a must-visit destination for anyone
+          interested in history, art, and culture. As you explore the
+          surrounding area, you'll discover a treasure trove of ancient
+          artifacts and relics, including intricate carvings, sculptures, and
+          murals. The statue's tranquil atmosphere is further enhanced by the
+          surrounding gardens, which are home to a variety of flora and fauna.
+          Avukana Buddha Statue is a place of great historical significance, and
+          visitors can feel the energy and tranquility of the statue as they
+          explore its many wonders. Whether you're a history enthusiast, an art
+          lover, or simply looking for a peaceful retreat, Avukana Buddha Statue
+          is a must-visit destination in Sri Lanka.
         </p>
       </div>
     </div>

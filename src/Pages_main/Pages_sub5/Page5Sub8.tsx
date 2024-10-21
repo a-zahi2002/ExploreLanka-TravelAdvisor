@@ -1,22 +1,25 @@
 import React from "react";
-import "../Pages_sub1.css";
+import "../Pages_Sub1.css";
 
 const Page5Sub8: React.FC = () => {
   return (
     <div className="pages_sub1">
       <div className="content-container">
-        <h1>Lankarama Dagaba</h1>
+        <h1>Anuradhapura Archaeological Museum</h1>
         <p>
-          The Lankarama Dagaba is a historic stupa located in the ancient city
-          of Anuradhapura, built by King Valagamba in the 1st century B.C. This
-          stupa is said to contain a relic of the Buddha, making it a sacred
-          site for Buddhists. The stupa is surrounded by a complex of ruins,
-          including ancient temples and monasteries, offering a glimpse into the
-          lives of the monks and devotees who once inhabited the area. Visitors
-          can explore the site, taking in the history and spirituality that
-          permeates the air. The stupa is also a great spot for photography,
-          with its unique architecture and serene surroundings making it a
-          picturesque destination.
+          Explore the fascinating Anuradhapura Archaeological Museum, a treasure
+          trove of ancient artifacts and relics that showcase Sri Lanka's rich
+          cultural heritage. This museum is a must-visit destination for anyone
+          interested in history, art, and culture. As you wander through the
+          museum's many exhibits, you'll discover a stunning collection of
+          artifacts, including intricate carvings, sculptures, and murals. The
+          museum's tranquil atmosphere is further enhanced by the surrounding
+          gardens, which are home to a variety of flora and fauna. Anuradhapura
+          Archaeological Museum is a place of great historical significance, and
+          visitors can feel the energy and tranquility of the museum as they
+          explore its many wonders. Whether you're a history enthusiast, an art
+          lover, or simply looking for a unique experience, Anuradhapura
+          Archaeological Museum is a must-visit destination in Sri Lanka.
         </p>
       </div>
     </div>

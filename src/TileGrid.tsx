@@ -120,23 +120,19 @@ const TileGrid: React.FC = () => {
           path="/"
           element={
             <div>
-              {/* Intro paragraph */}
               <p className="intro-paragraph">
                 Welcome to ExploreLanka! Discover the beauty and diversity of
                 Sri Lanka through our curated selection of destinations. Click
                 on any tile to get more details about each province.
               </p>
 
-              {/* Search bar section */}
               <div className="search-bar-container">
-                {/* Pass the descriptions to the SearchBar */}
                 <SearchBar
                   onSearch={handleSearch}
                   suggestions={allDescriptions}
                 />
               </div>
 
-              {/* Tile grid */}
               <div className="tile-grid-container">
                 <div className="tile-grid">
                   {displayedTiles.length > 0 ? (
@@ -145,7 +141,7 @@ const TileGrid: React.FC = () => {
                         key={index}
                         image={tile.image}
                         description={tile.description}
-                        page={tile.page}
+                        page={tile.page} // Ensure the page prop is passed
                       />
                     ))
                   ) : (

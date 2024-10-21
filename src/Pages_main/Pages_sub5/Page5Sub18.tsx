@@ -1,22 +1,24 @@
 import React from "react";
-import "../Pages_sub1.css";
+import "../Pages_Sub1.css";
 
 const Page5Sub18: React.FC = () => {
   return (
     <div className="pages_sub1">
       <div className="content-container">
-        <h1>Kiri Vehera</h1>
+        <h1>Gal Vihara</h1>
         <p>
-          Kiri Vehera is a historic stupa located in the ancient city of
-          Polonnaruwa, built by King Parakramabahu I in the 12th century A.D.
-          This stupa is said to contain a relic of the Buddha, making it a
-          sacred site for Buddhists. The stupa is surrounded by a complex of
-          ruins, including ancient temples and monasteries, offering a glimpse
-          into the lives of the monks and devotees who once inhabited the area.
-          Visitors can explore the site, taking in the history and spirituality
-          that permeates the air. The stupa is also a great spot for
-          photography, with its unique architecture and serene surroundings
-          making it a picturesque destination.
+          Discover the ancient Gal Vihara, a historic temple that dates back to
+          the 12th century. This sacred site is a must-visit destination for
+          anyone interested in history, art, and culture. As you explore the
+          temple's many buildings and ruins, you'll discover a treasure trove of
+          ancient artifacts and relics, including intricate carvings,
+          sculptures, and murals. The temple's stunning architecture and unique
+          design make it a must-visit destination for anyone interested in
+          history and architecture. Gal Vihara is a place of great historical
+          significance, and visitors can feel the energy and tranquility of the
+          temple as they explore its many wonders. Whether you're a history
+          enthusiast, an art lover, or simply looking for a unique experience,
+          Gal Vihara is a must-visit destination in Sri Lanka.
         </p>
       </div>
     </div>

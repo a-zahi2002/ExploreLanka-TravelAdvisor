@@ -7,8 +7,7 @@
     width: 220px;
     height: 150px;
     opacity: 1; 
-    background-color: rgb(224, 224, 224);/* Make the tile invisible */
-     /* Smooth transition if you change opacity later */
+    background-color: rgb(224, 224, 224);
   
   
   }

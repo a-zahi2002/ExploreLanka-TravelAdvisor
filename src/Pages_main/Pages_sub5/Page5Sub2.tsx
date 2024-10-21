@@ -1,5 +1,5 @@
 import React from "react";
-import "../Pages_sub1.css";
+import "../Pages_Sub1.css";
 
 const Page5Sub2: React.FC = () => {
   return (
@@ -7,19 +7,20 @@ const Page5Sub2: React.FC = () => {
       <div className="content-container">
         <h1>Jaya Sri Maha Bodhi</h1>
         <p>
-          The Jaya Sri Maha Bodhi is no ordinary tree; it is the oldest
-          human-planted tree in the world with a known planting date, grown from
-          a cutting of the sacred Bodhi tree in India under which Buddha
-          attained enlightenment. Planted in 288 B.C., this sacred fig tree
-          stands as one of the most important pilgrimage destinations in Sri
-          Lanka. The sacred precinct surrounding the tree offers a peaceful and
-          spiritual atmosphere where devotees pray and make offerings. Visiting
-          Jaya Sri Maha Bodhi offers not only a spiritual journey but also a
-          connection to Sri Lanka’s ancient history. The site is part of the
-          larger Mahamewna Gardens, which boasts archaeological ruins and a
-          calm, reflective ambiance. Tourists will be drawn to the serenity of
-          the site, along with the vibrant cultural practices that take place
-          regularly, such as processions, prayers, and offerings.
+          Step into the sacred grounds of Jaya Sri Maha Bodhi, a revered
+          Buddhist temple housing a sapling from the original Bodhi Tree under
+          which Lord Buddha attained enlightenment. This ancient temple is a
+          must-visit destination for anyone interested in history, art, and
+          culture. As you explore the temple's many buildings and ruins, you'll
+          discover a treasure trove of ancient artifacts and relics, including
+          intricate carvings, sculptures, and murals. The temple's stunning
+          architecture and unique design make it a must-visit destination for
+          anyone interested in history and architecture. Jaya Sri Maha Bodhi is
+          a place of great historical significance, and visitors can feel the
+          energy and tranquility of the temple as they explore its many wonders.
+          Whether you're a history enthusiast, an art lover, or simply looking
+          for a unique experience, Jaya Sri Maha Bodhi is a must-visit
+          destination in Sri Lanka.
         </p>
       </div>
     </div>
