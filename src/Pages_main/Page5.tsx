@@ -4,7 +4,7 @@ import TileGrid5 from "./TileGrid5";
 import { useNavigate } from "react-router-dom";
 
 const Page5: React.FC = () => {
-  const navigate = useNavigate(); // React Router's useNavigate hook
+  const navigate = useNavigate(); 
 
   return (
     <div className="page">

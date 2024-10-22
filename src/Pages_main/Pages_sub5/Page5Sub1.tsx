@@ -1,5 +1,8 @@
 import React from "react";
 import "../Pages_Sub1.css"; // Assuming your updated styles are in this file
+import ruwanwelisaya1 from "../../NCP_Images/Ruwanwelisaya1.jpg";
+import ruwanwelisaya2 from "../../NCP_Images/Ruwanwelisaya2.jpg";
+import ruwanwelisaya3 from "../../NCP_Images/Ruwanwelisaya3.jpg";
 
 const Page5Sub1: React.FC = () => {
   const handleClose = () => {
@@ -23,9 +26,9 @@ const Page5Sub1: React.FC = () => {
 
         {/* Image Section - Upper Half */}
         <div className="image-section">
-          <img src="/path-to-image1.jpg" alt="Ruwanwelisaya View 1" />
-          <img src="/path-to-image2.jpg" alt="Ruwanwelisaya View 2" />
-          <img src="/path-to-image3.jpg" alt="Ruwanwelisaya View 3" />
+          <img src={ruwanwelisaya1} alt="Ruwanwelisaya View 1" />
+          <img src={ruwanwelisaya2} alt="Ruwanwelisaya View 2" />
+          <img src={ruwanwelisaya3} alt="Ruwanwelisaya View 3" />
         </div>
 
         {/* Lower Section (60:40 Split) */}
