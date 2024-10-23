@@ -1,5 +1,5 @@
 import React from "react";
-import "../Pages_Sub1.css"; // Assuming your updated styles are in this file
+import "../Pages_Sub1.css";
 import colombomuseum01 from "/src/assets/western_img/Colombo-National-Museum-1.jpg";
 import colombomuseum02 from  "/src/assets/western_img/Colombo-National-Museum-2.jpg";
 import colombomuseum03 from "/src/assets/western_img/Colombo-National-Museum-3.jpg";
@@ -8,25 +8,25 @@ import colombomuseum03 from "/src/assets/western_img/Colombo-National-Museum-3.j
 
 const Page9Sub4: React.FC = () => {
   const handleClose = () => {
-    // Logic to close the page (e.g., navigate back or hide the component)
+    
     console.log("Page closed");
-    window.history.back(); // This will take the user back to the previous page.
+    window.history.back();
   };
 
   return (
     <div className="subpage-container">
       {" "}
-      {/* Use scoped class name */}
+      
       <div className="content-container">
-        {/* Close Button */}
+       
         <button className="close-button" onClick={handleClose}>
           ✕
         </button>
 
-        {/* Title */}
+       
         <h1>Colombo National Museum</h1>
 
-        {/* Image Section - Upper Half */}
+        
         <div className="image-section">
          <img src={colombomuseum01} alt="Colombo National Museum View 01"/>
          <img src={colombomuseum02} alt="Colombo National Museum View 02"/>
@@ -34,16 +34,16 @@ const Page9Sub4: React.FC = () => {
           
         </div>
 
-        {/* Lower Section (60:40 Split) */}
+        
         <div className="lower-section">
-          {/* Left - 60% for Description */}
+        
           <div className="description">
             <p>
             The Colombo National Museum, also known as the Sri Lanka National Museum, is the largest and most significant museum in the country. Established in 1877 by Sir William Henry Gregory, the then British Governor of Ceylon, this grand building is a treasure trove of Sri Lankan history, culture, and heritage. The museum's colonial-era architecture is as impressive as the artifacts housed within, including ancient statues, royal regalia, weapons, traditional artwork, and historical documents.<br />The Colombo National Museum, also known as the Sri Lanka National Museum, is the largest and most significant museum in the country. Established in 1877 by Sir William Henry Gregory, the then British Governor of Ceylon, this grand building is a treasure trove of Sri Lankan history, culture, and heritage. The museum's colonial-era architecture is as impressive as the artifacts housed within, including ancient statues, royal regalia, weapons, traditional artwork, and historical documents.
             </p>
           </div>
 
-          {/* Right - 40% for Additional Details */}
+          
           <div className="additional-details">
             <h3>Travel Information</h3>
             <ul>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import "./TileGrid1.css"; // Ensure you have the correct CSS file name
+import "./TileGrid1.css"; 
 import Tile from "../Tile";
 import Page9Sub1 from "./Pages_sub9/Page9Sub1";
 import Page9Sub2 from "./Pages_sub9/Page9Sub2";
@@ -24,7 +24,7 @@ interface TileData {
   page: string;
 }
 
-// Renamed the tile data to tileData9 for consistency
+
 const tileData9: TileData[] = [
   {
     image: "src/assets/western_img/gangaramaya.jpg",
@@ -101,16 +101,16 @@ const tileData9: TileData[] = [
     description: "Bandiyamulla Tombstone",
     page: "Page9Sub15",
   },
-  // Add more tile data as needed
+  
 ];
 
-// Export the tile data as tileData9
+
 export { tileData9 };
 
 const TileGrid9: React.FC = () => {
   return (
     <div>
-      {/* Main tile grid for subpages */}
+      
       <div className="tile-grid">
         {tileData9.map((tile, index) => (
           <Tile
@@ -122,7 +122,7 @@ const TileGrid9: React.FC = () => {
         ))}
       </div>
 
-      {/* Routes for the subpages */}
+      
       <Routes>
         <Route path="Page9Sub1" element={<Page9Sub1 />} />
         <Route path="Page9Sub2" element={<Page9Sub2 />} />
