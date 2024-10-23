@@ -41,7 +41,6 @@ const Page9Sub1: React.FC = () => {
             </p>
           </div>
 
-
           <div className="additional-details">
             <h3>Travel Information</h3>
             <ul>
