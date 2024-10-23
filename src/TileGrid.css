@@ -76,6 +76,8 @@
   display: flex;
   justify-content: center;
   z-index: 1;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .intro-paragraph {
