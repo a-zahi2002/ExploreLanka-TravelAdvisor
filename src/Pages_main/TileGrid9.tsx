@@ -27,77 +27,77 @@ interface TileData {
 // Renamed the tile data to tileData9 for consistency
 const tileData9: TileData[] = [
   {
-    image: "src/assets/western img/gangaramaya.jpg",
+    image: "src/assets/western_img/gangaramaya.jpg",
     description: "Gangaramaya Temple",
     page: "Page9Sub1",
   },
   {
-    image: "src/assets/western img/galle-face-green-2.jpg",
+    image: "src/assets/western_img/galle-face-green-2.jpg",
     description: "Galle Face Green",
     page: "Page9Sub2",
   },
   {
-    image: "src/assets/western img/viharamaha devi park.jpg",
+    image: "src/assets/western_img/viharamaha devi park.jpg",
     description: "Vihara Maha Devi Park",
     page: "Page9Sub3",
   },
   {
-    image: "src/assets/western img/colombo_national_museum.jpg",
+    image: "src/assets/western_img/colombo_national_museum.jpg",
     description: "Colombo National Museum",
     page: "Page9Sub4",
   },
   {
-    image: "src/assets/western img/Independence_Commemoration_Hall.jpg",
+    image: "src/assets/western_img/Independence_Commemoration_Hall.jpg",
     description: "Independence Memorial Hall",
     page: "Page9Sub5",
   },
   {
-    image: "src/assets/western img/Beira_Lake.jpg",
+    image: "src/assets/western_img/Beira_Lake.jpg",
     description: "Beira Lake",
     page: "Page9Sub6",
   },
   {
-    image: "src/assets/western img/Jami-Ul-Alfar-Mosque.jpg",
+    image: "src/assets/western_img/Jami-Ul-Alfar-Mosque.jpg",
     description: "Jami Ul-Alfar Mosque",
     page: "Page9Sub7",
   },
   {
-    image: "src/assets/western img/wolvendal church.jpg",
+    image: "src/assets/western_img/wolvendal church.jpg",
     description: "Wolvendaal Church",
     page: "Page9Sub8",
   },
   {
-    image: "src/assets/western img/kelani temple.jpg",
+    image: "src/assets/western_img/kelani temple.jpg",
     description: "Kelaniya Raja Maha Vihara",
     page: "Page9Sub9",
   },
   {
-    image: "src/assets/western img/Sri-Kailawasanathan1.jpg",
+    image: "src/assets/western_img/Sri-Kailawasanathan1.jpg",
     description: "Sri Kailawasanathan Swami Devasthanam Kovil",
     page: "Page9Sub10",
   },
   {
-    image: "src/assets/western img/the-old-colombo-dutch.jpg",
+    image: "src/assets/western_img/the-old-colombo-dutch.jpg",
     description: "Dutch Hospital Shopping Precinct",
     page: "Page9Sub11",
   },
   {
-    image: "src/assets/western img/brief garden.webp",
+    image: "src/assets/western_img/brief garden.webp",
     description: "Brief Garden",
     page: "Page9Sub12",
   },
   {
-    image: "src/assets/western img/ella falls.webp",
+    image: "src/assets/western_img/ella falls.webp",
     description: "Alagiyawanna Ella Falls",
     page: "Page9Sub13",
   },
   {
-    image: "src/assets/western img/Arcade-at-Independence-Square.png",
+    image: "src/assets/western_img/Arcade-at-Independence-Square.png",
     description: "Arcade Independence Square",
     page: "Page9Sub14",
   },
   {
-    image: "src/assets/western img/Bandiyamulla Tombstone.jpeg",
+    image: "src/assets/western_img/Bandiyamulla Tombstone.jpeg",
     description: "Bandiyamulla Tombstone",
     page: "Page9Sub15",
   },
