@@ -1,10 +1,10 @@
 import React from "react";
-import "./Page.css"; // Main Page CSS
+import "./Page.css"; 
 import TileGrid9 from "./TileGrid9";
 import { useNavigate } from "react-router-dom";
 
 const Page9: React.FC = () => {
-  const navigate = useNavigate(); // React Router's useNavigate hook
+  const navigate = useNavigate(); 
 
   return (
     <div className="page">
@@ -21,7 +21,7 @@ const Page9: React.FC = () => {
         Kotte, as well as the largest city and commercial center, Colombo.
       </p>
       <TileGrid9 />
-      <button onClick={() => navigate(-1)}>Back</button> {/* Navigate Back */}
+      <button onClick={() => navigate(-1)}>Back</button> 
     </div>
   );
 };
