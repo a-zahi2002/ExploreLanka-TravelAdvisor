@@ -1,5 +1,5 @@
 import React from "react";
-import "../Pages_Sub1.css"; // Assuming your updated styles are in this file
+import "../Pages_Sub1.css"; 
 import memorialhall01 from "/src/assets/western_img/memorial_hall01.jpg";
 import memorialhall02 from  "/src/assets/western_img/memorial_hall02.jpg";
 import memorialhall03 from "/src/assets/western_img/memorial_hall03.jpg";
@@ -8,25 +8,25 @@ import memorialhall03 from "/src/assets/western_img/memorial_hall03.jpg";
 
 const Page9Sub5: React.FC = () => {
   const handleClose = () => {
-    // Logic to close the page (e.g., navigate back or hide the component)
+    
     console.log("Page closed");
-    window.history.back(); // This will take the user back to the previous page.
+    window.history.back(); 
   };
 
   return (
     <div className="subpage-container">
       {" "}
-      {/* Use scoped class name */}
+      
       <div className="content-container">
-        {/* Close Button */}
+        
         <button className="close-button" onClick={handleClose}>
           ✕
         </button>
 
-        {/* Title */}
+        
         <h1>Independence Memorial Hall</h1>
 
-        {/* Image Section - Upper Half */}
+        
         <div className="image-section">
          <img src={memorialhall01} alt="Independence Memorial Hall View 01"/>
          <img src={memorialhall02} alt="Independence Memorial Hall View 02"/>
@@ -34,16 +34,16 @@ const Page9Sub5: React.FC = () => {
           
         </div>
 
-        {/* Lower Section (60:40 Split) */}
+        
         <div className="lower-section">
-          {/* Left - 60% for Description */}
+          
           <div className="description">
             <p>
             Independence Memorial Hall, located in the serene surroundings of Independence Square in Colombo, stands as a proud symbol of Sri Lanka's freedom from British colonial rule. The hall was built to commemorate the country's independence on February 4, 1948, and is designed to reflect traditional Kandyan architecture. It features intricate stone carvings and a grand open-pillared structure, offering visitors a glimpse into the artistic heritage of Sri Lanka.<br />The hall is often used for official ceremonies and cultural events, and its grounds are a popular spot for locals and tourists to relax or take a leisurely stroll. The central monument is flanked by statues of lions, a traditional symbol of the island’s sovereignty, while a statue of the first Prime Minister, D.S. Senanayake, proudly stands at the entrance.<br />Inside, there’s a small museum dedicated to Sri Lanka’s journey to independence, featuring photographs and documents from the colonial era to modern times.
             </p>
           </div>
 
-          {/* Right - 40% for Additional Details */}
+        
           <div className="additional-details">
             <h3>Travel Information</h3>
             <ul>

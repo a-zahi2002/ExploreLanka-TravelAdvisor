@@ -1,5 +1,5 @@
 import React from "react";
-import "../Pages_Sub1.css"; // Assuming your updated styles are in this file
+import "../Pages_Sub1.css"; 
 import gallefacegreen01 from "/src/assets/western_img/gall_face_green01.jpg";
 import gallefacegreen02 from  "/src/assets/western_img/gall_face_green02.jpg";
 import gallefacegreen03 from "/src/assets/western_img/gall_face_green03.jpg";
@@ -8,25 +8,25 @@ import gallefacegreen03 from "/src/assets/western_img/gall_face_green03.jpg";
 
 const Page9Sub2: React.FC = () => {
   const handleClose = () => {
-    // Logic to close the page (e.g., navigate back or hide the component)
+   
     console.log("Page closed");
-    window.history.back(); // This will take the user back to the previous page.
+    window.history.back(); 
   };
 
   return (
     <div className="subpage-container">
       {" "}
-      {/* Use scoped class name */}
+      
       <div className="content-container">
-        {/* Close Button */}
+        
         <button className="close-button" onClick={handleClose}>
           ✕
         </button>
 
-        {/* Title */}
+        
         <h1>Galle Face Green</h1>
 
-        {/* Image Section - Upper Half */}
+        
         <div className="image-section">
          <img src={gallefacegreen01} alt="Galle Face Green View 01"/>
          <img src={gallefacegreen02} alt="Galle Face Green View 02"/>
@@ -34,16 +34,16 @@ const Page9Sub2: React.FC = () => {
           
         </div>
 
-        {/* Lower Section (60:40 Split) */}
+        
         <div className="lower-section">
-          {/* Left - 60% for Description */}
+         
           <div className="description">
             <p>
             Galle Face Green is a sprawling oceanfront urban park located along the coast of Colombo, Sri Lanka. This popular promenade stretches over half a kilometer, offering locals and tourists a breezy escape from the bustling city. Known for its wide-open spaces, stunning sunset views, and lively atmosphere, it's a favorite spot for families, couples, and those looking to unwind by the sea.<br />The area is vibrant in the evenings with street food vendors selling local delicacies such as "isso wade" (prawn fritters) and "kottu roti." Visitors often fly kites, play cricket, or simply relax on the grassy expanses while the sound of crashing waves creates a peaceful ambiance.
             </p>
           </div>
 
-          {/* Right - 40% for Additional Details */}
+          
           <div className="additional-details">
             <h3>Travel Information</h3>
             <ul>
