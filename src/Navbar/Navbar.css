@@ -8,16 +8,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #004d7a; /* Dark blue background */
+    background-color: #8ae68f; /* Dark green background */
     padding: 15px 30px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.nav-logo {
-    font-size: 24px;
-    color: #ffffff; /* White text for contrast */
-    font-weight: bold;
-    letter-spacing: 1px;
+.logo img {
+    height: 40px; /* Adjust logo size as needed */
 }
 
 .nav-menu {
@@ -51,7 +48,7 @@ body {
     padding: 10px 15px;
     background-color: #ffcc00; /* Gold background for contact */
     border-radius: 5px;
-    color: #004d7a; /* Dark blue text for contrast */
+    color: #2e7d32; /* Dark green text for contrast */
     font-weight: bold;
     transition: background-color 0.3s, color 0.3s;
 }
