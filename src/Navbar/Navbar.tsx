@@ -1,11 +1,12 @@
 import "./Navbar.css";
+import logo from "./long_logo.jpg";
 
 const Navbar = () => {
     return (
         <header>
             <nav className='nav'>
                 <a href="#" className="logo">
-                    <img src="./Long Logo.png" alt="logo"></img>
+                    <img src="{logo}" alt="logo"></img>
                 </a>
                 <ul className='nav-menu'>
                     <li>
@@ -24,6 +25,6 @@ const Navbar = () => {
             </nav>
         </header>
     );
-};
+}
 
 export default Navbar;
