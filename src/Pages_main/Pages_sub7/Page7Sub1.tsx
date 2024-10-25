@@ -1,8 +1,8 @@
 import React from "react";
 import "../Pages_sub1.css";// Assuming your updated styles are in this file
-import nallur1 from "../../Northern_img/1-nallur.jpg";
-import nallur2 from "../../Northern_img/2-nallur.jpg";
-import nallur3 from "../../Northern_img/3-nallur.png";
+import nallur1 from "../../assets/images/1-nallur.jpg";
+import nallur2 from "../../assets/images/1-nallur.jpg";
+import nallur3 from "../../assets/images/1-nallur.jpg";
 
 
 const Page7Sub1: React.FC = () => {
