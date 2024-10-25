@@ -1,7 +1,7 @@
 import "./Navbar.css";
 
 const Navbar = () => {
-    return(
+    return (
         <header>
             <nav className='nav'>
                 <a href="#" className="logo">
