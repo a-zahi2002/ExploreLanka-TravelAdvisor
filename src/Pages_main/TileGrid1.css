@@ -1,52 +1,49 @@
-/* Grid container styles */
 .tile-grid {
   display:contents;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Flexible grid columns */
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
   gap: 60px;
-  padding: 0px; /* Optional padding around the grid */
-  grid-auto-flow: row; /* Add this line to prevent stacking */
-  max-width: 80%; /* Set the maximum width to 80% of the page width */
-  margin: 0 auto; /* Center the grid horizontally */
+  padding: 0px; 
+  grid-auto-flow: row; 
+  max-width: 80%; 
+  margin: 0 auto; 
 }
 
-/* Media query for full screen mode */
+
 @media (min-width: 0) {
   .tile-grid {
-    grid-template-columns: repeat(3, minmax(150px, 1fr)); /* 3 columns in full screen mode */
+    grid-template-columns: repeat(3, minmax(150px, 1fr)); 
   }
 }
 
-/* Media query for larger screens */
+
 @media (min-width: 1200px) {
   .tile-grid {
-    grid-template-columns: repeat(3, minmax(150px, 1fr)); /* 3 columns on larger screens */
+    grid-template-columns: repeat(3, minmax(150px, 1fr));
   }
 }
 
-/* Media query for medium screens */
+
 @media (min-width: 992px) and (max-width: 1199px) {
   .tile-grid {
-    grid-template-columns: repeat(2, minmax(150px, 1fr)); /* 2 columns on medium screens */
+    grid-template-columns: repeat(2, minmax(150px, 1fr)); 
   }
 }
 
-/* Media query for smaller screens */
+
 @media (min-width: 768px) and (max-width: 991px) {
   .tile-grid {
-    grid-template-columns: repeat(2, minmax(150px, 1fr)); /* 2 columns on smaller screens */
+    grid-template-columns: repeat(2, minmax(150px, 1fr)); 
   }
 }
 
-/* Media query for very small screens */
+
 @media (max-width: 767px) {
   .tile-grid {
-    grid-template-columns: repeat(1, minmax(150px, 1fr)); /* Single column on very small screens */
+    grid-template-columns: repeat(1, minmax(150px, 1fr)); 
   }
 }
 
-/* Individual tile styles */
 .tile {
-  /* Add some basic styling to the tiles */
   background-color: #f7f7f7;
   border: 0px solid #ffffff;
   padding: 0px;
