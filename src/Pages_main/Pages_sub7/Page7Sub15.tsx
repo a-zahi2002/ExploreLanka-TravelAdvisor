@@ -41,7 +41,7 @@ const Page7Sub15: React.FC = () => {
             <h3>Nearby Attractions</h3>
             <ul>
               <li>Muripukulam</li>
-              <li>Chundikulam beach</li>
+              <li>Elephant pass</li>
               <li>Kilinochchi war memorial</li>
             </ul>
           </div>

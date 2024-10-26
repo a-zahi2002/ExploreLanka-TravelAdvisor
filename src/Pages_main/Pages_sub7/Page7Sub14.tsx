@@ -42,7 +42,7 @@ const Page7Sub14: React.FC = () => {
             <ul>
               <li>Iranaimadu tank</li>
               <li>Muripukulam</li>
-              <li>Chundikulam beach</li>
+              <li>Kilinochchi war memorial</li>
             </ul>
           </div>
         </div>
