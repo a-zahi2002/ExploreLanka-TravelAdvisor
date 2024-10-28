@@ -50,7 +50,7 @@ const tileData5: TileData[] = [
     page: "Page5Sub3",
   },
   {
-    image: "src/NCP_Images/Awukana.jpg",
+    image: "src/NCP_Images/Avukana.jpg",
     description: "Avukana Buddha Statue",
     page: "Page5Sub4",
   },

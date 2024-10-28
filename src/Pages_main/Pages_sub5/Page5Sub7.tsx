@@ -1,5 +1,8 @@
 import React from "react";
 import "../Pages_Sub1.css";
+import TwinPonds1 from "../../NCP_Images/TwinPonds1.jpg";
+import TwinPonds2 from "../../NCP_Images/TwinPonds2.jpg";
+import TwinPonds3 from "../../NCP_Images/TwinPonds3.jpg";
 
 const Page5Sub7: React.FC = () => {
   const handleClose = () => {
@@ -15,9 +18,9 @@ const Page5Sub7: React.FC = () => {
         </button>
         <h1>Twin Ponds (Kuttam Pokuna)</h1>
         <div className="image-section">
-          <img src="/path-to-image1.jpg" alt="Twin Ponds View 1" />
-          <img src="/path-to-image2.jpg" alt="Twin Ponds View 2" />
-          <img src="/path-to-image3.jpg" alt="Twin Ponds View 3" />
+          <img src={TwinPonds1} alt="Twin Ponds View 1" />
+          <img src={TwinPonds2} alt="Twin Ponds View 2" />
+          <img src={TwinPonds3} alt="Twin Ponds View 3" />
         </div>
         <div className="lower-section">
           <div className="description">

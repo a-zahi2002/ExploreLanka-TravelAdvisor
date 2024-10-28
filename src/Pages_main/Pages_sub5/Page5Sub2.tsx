@@ -1,5 +1,8 @@
 import React from "react";
 import "../Pages_Sub1.css";
+import SriMahaBodhiya1 from "../../NCP_Images/SriMahaBodhiya1.jpg";
+import SriMahaBodhiya2 from "../../NCP_Images/SriMahaBodhiya2.jpg";
+import SriMahaBodhiya3 from "../../NCP_Images/SriMahaBodhiya3.jpg";
 
 const Page5Sub2: React.FC = () => {
   const handleClose = () => {
@@ -15,9 +18,9 @@ const Page5Sub2: React.FC = () => {
         </button>
         <h1>Jaya Sri Maha Bodhi</h1>
         <div className="image-section">
-          <img src="/path-to-image1.jpg" alt="Jaya Sri Maha Bodhi View 1" />
-          <img src="/path-to-image2.jpg" alt="Jaya Sri Maha Bodhi View 2" />
-          <img src="/path-to-image3.jpg" alt="Jaya Sri Maha Bodhi View 3" />
+          <img src={SriMahaBodhiya1} alt="Jaya Sri Maha Bodhi View 1" />
+          <img src={SriMahaBodhiya2} alt="Jaya Sri Maha Bodhi View 2" />
+          <img src={SriMahaBodhiya3} alt="Jaya Sri Maha Bodhi View 3" />
         </div>
         <div className="lower-section">
           <div className="description">
