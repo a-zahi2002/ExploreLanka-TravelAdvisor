@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { SearchContext } from "./SearchContext";
 import Tile from "./Tile";
 
-const TileGrid1: React.FC = () => {
+const SubTileGrid: React.FC = () => {
   const { searchQuery, tileData } = useContext(SearchContext);
 
   const filteredTiles = tileData.filter((tile) =>
@@ -27,4 +27,4 @@ const TileGrid1: React.FC = () => {
   );
 };
 
-export default TileGrid1;
+export default SubTileGrid;
