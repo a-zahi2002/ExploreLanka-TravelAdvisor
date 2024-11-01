@@ -12,6 +12,7 @@ import Page7 from "./Pages_main/Page7";
 import Page8 from "./Pages_main/Page8";
 import Page9 from "./Pages_main/Page9";
 import SearchBar from "./SearchBar";
+import SubTileGrid from "./SubTileGrid"; // Import SubTileGrid
 
 // Import tile data from other TileGrid components
 import { tileData1 } from "./Pages_main/TileGrid1";
@@ -135,19 +136,24 @@ const TileGrid: React.FC = () => {
 
               <div className="tile-grid-container">
                 <div className="tile-grid">
-                  {displayedTiles.length > 0 ? (
-                    displayedTiles.map((tile, index) => (
+                  {/* Conditionally render SubTileGrid or main tiles based on search query */}
+                  {searchQuery.length > 0 ? (
+                    <SubTileGrid tiles={displayedTiles} />
+                  ) : (
+                    tileData.map((tile, index) => (
                       <Tile
                         key={index}
                         image={tile.image}
                         description={tile.description}
-                        page={tile.page} // Ensure the page prop is passed
+                        page={tile.page}
                       />
                     ))
-                  ) : (
-                    <p className="no-results">No results found.</p>
                   )}
                 </div>
+                {/* Show no results if search returns no tiles */}
+                {searchQuery.length > 0 && displayedTiles.length === 0 && (
+                  <p className="no-results">No results found.</p>
+                )}
               </div>
             </div>
           }
@@ -166,5 +172,6 @@ const TileGrid: React.FC = () => {
   );
 };
 
+// Export the tileData for other components if needed
 export { tileData };
 export default TileGrid;

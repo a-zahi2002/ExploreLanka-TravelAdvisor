@@ -1,4 +1,5 @@
-import { createContext, useState } from "react";
+// SearchContext.tsx
+import { createContext, useState, ReactNode } from "react";
 
 interface TileData {
   image: string;
@@ -13,15 +14,16 @@ interface SearchContextProps {
   setTileData: (data: TileData[]) => void;
 }
 
+const defaultTileData: TileData[] = [];
 const SearchContext = createContext<SearchContextProps>({
   searchQuery: "",
   setSearchQuery: () => {},
-  tileData: [],
+  tileData: defaultTileData,
   setTileData: () => {},
 });
 
 interface SearchProviderProps {
-  children: React.ReactNode;
+  children: ReactNode;
   initialTileData: TileData[];
 }
 
@@ -34,12 +36,7 @@ const SearchProvider: React.FC<SearchProviderProps> = ({
 
   return (
     <SearchContext.Provider
-      value={{
-        searchQuery,
-        setSearchQuery,
-        tileData,
-        setTileData,
-      }}
+      value={{ searchQuery, setSearchQuery, tileData, setTileData }}
     >
       {children}
     </SearchContext.Provider>

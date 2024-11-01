@@ -1,5 +1,8 @@
 import React from "react";
 import "../Pages_Sub1.css";
+import AnuradhapuraMuseum1 from "../../NCP_Images/AnuradhapuraMuseum1.jpg";
+import AnuradhapuraMuseum2 from "../../NCP_Images/AnuradhapuraMuseum2.jpg";
+import AnuradhapuraMuseum3 from "../../NCP_Images/AnuradhapuraMuseum3.jpg";
 
 const Page5Sub8: React.FC = () => {
   const handleClose = () => {
@@ -15,9 +18,9 @@ const Page5Sub8: React.FC = () => {
         </button>
         <h1>Anuradhapura Archaeological Museum</h1>
         <div className="image-section">
-          <img src="/path-to-image1.jpg" alt="Museum View 1" />
-          <img src="/path-to-image2.jpg" alt="Museum View 2" />
-          <img src="/path-to-image3.jpg" alt="Museum View 3" />
+          <img src={AnuradhapuraMuseum1} alt="Museum View 1" />
+          <img src={AnuradhapuraMuseum2} alt="Museum View 2" />
+          <img src={AnuradhapuraMuseum3} alt="Museum View 3" />
         </div>
         <div className="lower-section">
           <div className="description">

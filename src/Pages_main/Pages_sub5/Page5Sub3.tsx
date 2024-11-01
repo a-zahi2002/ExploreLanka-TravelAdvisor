@@ -1,5 +1,8 @@
 import React from "react";
 import "../Pages_Sub1.css";
+import Isurumuniya1 from "../../NCP_Images/Isurumuniya1.jpg";
+import Isurumuniya2 from "../../NCP_Images/Isurumuniya2.jpg";
+import Isurumuniya3 from "../../NCP_Images/Isurumuniya3.jpg";
 
 const Page5Sub3: React.FC = () => {
   const handleClose = () => {
@@ -15,9 +18,9 @@ const Page5Sub3: React.FC = () => {
         </button>
         <h1>Isurumuniya Temple</h1>
         <div className="image-section">
-          <img src="/path-to-image1.jpg" alt="Isurumuniya Temple View 1" />
-          <img src="/path-to-image2.jpg" alt="Isurumuniya Temple View 2" />
-          <img src="/path-to-image3.jpg" alt="Isurumuniya Temple View 3" />
+          <img src={Isurumuniya1} alt="Isurumuniya Temple View 1" />
+          <img src={Isurumuniya2} alt="Isurumuniya Temple View 2" />
+          <img src={Isurumuniya3} alt="Isurumuniya Temple View 3" />
         </div>
         <div className="lower-section">
           <div className="description">
