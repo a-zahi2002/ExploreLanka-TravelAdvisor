@@ -1,12 +1,12 @@
-
-
 .page {
-  max-width: 100%;
+  max-width: 90%;
+  margin: 0 auto; /* Centers the element */
   padding: 20px;
-  background-color: #fff;
-
+  background-color: rgba(255, 255, 255, 0.527);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow-y: auto;
+  border-radius: 10px;
+  margin-bottom: 50px;
 }
 
 .page h1 {
@@ -14,16 +14,16 @@
   color: black;
   font-weight: bold;
   margin-bottom: 10px;
-
 }
 
 .page button {
   background-color: #4CAF50;
   color: #fff;
-  padding: 10px 20px;
+  padding: 15px 30px; /* Increased padding for larger buttons */
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 18px; /* Optional: Increase font size for better readability */
 }
 
 .page button:hover {
@@ -32,27 +32,22 @@
 
 .tile:hover {
   transform: scale(1);
-  box-shadow: 4px 8px  16px rgb(0, 0, 0);
-
+  box-shadow: 4px 8px 16px rgb(0, 0, 0);
 }
 
-.topic{
-    width: 1000px;
-    margin: 0 auto;            
-    padding: 10px;            
-    text-align: center;
-    border-radius: 25px;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    color: #068b27; 
-    font-size:xxx-large;
-   
-  
-  }
-  
+.topic {
+  width: 1000px;
+  margin: 0 auto;            
+  padding: 10px;            
+  text-align: center;
+  border-radius: 25px;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #068b27; 
+  font-size: xxx-large;  
+}
 
-.paragraph{
-  font-family:serif;
+.paragraph {
+  font-family: serif;
   font-weight: 400;
-  font-size: 30px;
-  background-color: rgb(255, 255, 255);
+  font-size: 30px;  
 }

@@ -1,26 +1,33 @@
-
 import "./Navbar.css";
-import logo from "./long_logo.png"; // Ensure the logo fits the green theme
+import logo from "./long_logo.png";
 
 const Navbar = () => {
   return (
     <header>
-      <nav className="nav">
+      <nav className="nav-bar">
         <a href="#" className="logo">
-          <img src={logo} alt="logo" />
+          <img src={logo} alt="Logo" />
         </a>
         <ul className="nav-menu">
           <li>
-            <a href="#">Home</a>
+            <button className="nav-button">
+              <a href="#">Home</a>
+            </button>
           </li>
           <li>
-            <a href="#">Explore</a>
+            <button className="nav-button">
+              <a href="#">Explore</a>
+            </button>
           </li>
           <li>
-            <a href="#">About</a>
+            <button className="nav-button">
+              <a href="#">About</a>
+            </button>
           </li>
           <li className="nav-contact">
-            <a href="#">Co ntact</a>
+            <button className="nav-button">
+              <a href="#">Contact</a>
+            </button>
           </li>
         </ul>
       </nav>
