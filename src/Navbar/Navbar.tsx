@@ -1,6 +1,6 @@
 <nav className="nav-bar">
   <a href="#" className="logo">
-    <img src={logo} alt="Logo" />
+    <img src="/long_logo.png" alt="Logo" />
   </a>
   <ul className="nav-menu">
     <li>
