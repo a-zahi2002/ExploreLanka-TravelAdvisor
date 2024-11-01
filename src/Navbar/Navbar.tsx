@@ -1,3 +1,4 @@
+
 import "./Navbar.css";
 import logo from "./long_logo.png"; // Ensure the logo fits the green theme
 
