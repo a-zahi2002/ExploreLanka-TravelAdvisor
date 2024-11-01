@@ -1,5 +1,8 @@
 import React from "react";
 import "../Pages_Sub1.css";
+import VijayabahuPalace1 from "../../NCP_Images/VijayabahuPalace1.jpg";
+import VijayabahuPalace2 from "../../NCP_Images/VijayabahuPalace2.jpg";
+import VijayabahuPalace3 from "../../NCP_Images/VijayabahuPalace3.jpg";
 
 const Page5Sub6: React.FC = () => {
   const handleClose = () => {
@@ -15,9 +18,9 @@ const Page5Sub6: React.FC = () => {
         </button>
         <h1>Royal Palace of King Vijayabahu I</h1>
         <div className="image-section">
-          <img src="/path-to-image1.jpg" alt="Royal Palace View 1" />
-          <img src="/path-to-image2.jpg" alt="Royal Palace View 2" />
-          <img src="/path-to-image3.jpg" alt="Royal Palace View 3" />
+          <img src={VijayabahuPalace1} alt="Royal Palace View 1" />
+          <img src={VijayabahuPalace2} alt="Royal Palace View 2" />
+          <img src={VijayabahuPalace3} alt="Royal Palace View 3" />
         </div>
         <div className="lower-section">
           <div className="description">

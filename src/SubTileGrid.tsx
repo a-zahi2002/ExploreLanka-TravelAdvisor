@@ -1,30 +1,21 @@
-import React, { useContext } from "react";
-import { SearchContext } from "./SearchContext";
-import Tile from "./Tile";
+import React from "react";
+import Tile from "./Tile"; // Ensure Tile is imported
 
-const TileGrid1: React.FC = () => {
-  const { searchQuery, tileData } = useContext(SearchContext);
-
-  const filteredTiles = tileData.filter((tile) =>
-    tile.description.toLowerCase().includes(searchQuery)
-  );
-
+const SubTileGrid: React.FC<{
+  tiles: Array<{ image: string; description: string; page: string }>;
+}> = ({ tiles }) => {
   return (
-    <div className="tile-grid">
-      {filteredTiles.length > 0 ? (
-        filteredTiles.map((tile, index) => (
-          <Tile
-            key={index}
-            image={tile.image}
-            description={tile.description}
-            page={tile.page}
-          />
-        ))
-      ) : (
-        <p className="no-results">No results found.</p>
-      )}
+    <div className="sub-tile-grid">
+      {tiles.map((tile, index) => (
+        <Tile
+          key={index}
+          image={tile.image}
+          description={tile.description}
+          page={tile.page}
+        />
+      ))}
     </div>
   );
 };
 
-export default TileGrid1;
+export default SubTileGrid;

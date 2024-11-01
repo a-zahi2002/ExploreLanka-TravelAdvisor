@@ -1,5 +1,8 @@
 import React from "react";
 import "../Pages_Sub1.css";
+import Avukana1 from "../../NCP_Images/Avukana1.jpg";
+import Avukana2 from "../../NCP_Images/Avukana2.jpg";
+import Avukana3 from "../../NCP_Images/Avukana3.jpg";
 
 const Page5Sub4: React.FC = () => {
   const handleClose = () => {
@@ -15,9 +18,9 @@ const Page5Sub4: React.FC = () => {
         </button>
         <h1>Avukana Buddha Statue</h1>
         <div className="image-section">
-          <img src="/path-to-image1.jpg" alt="Avukana Buddha Statue View 1" />
-          <img src="/path-to-image2.jpg" alt="Avukana Buddha Statue View 2" />
-          <img src="/path-to-image3.jpg" alt="Avukana Buddha Statue View 3" />
+          <img src={Avukana1} alt="Avukana Buddha Statue View 1" />
+          <img src={Avukana2} alt="Avukana Buddha Statue View 2" />
+          <img src={Avukana3} alt="Avukana Buddha Statue View 3" />
         </div>
         <div className="lower-section">
           <div className="description">

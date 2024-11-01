@@ -45,7 +45,7 @@
   padding: 0;
   margin-top: 5px;
   position: absolute;
-  top: 100%; /* Aligns below the search bar */
+  top: 100%;
   left: 0;
   width: 100%; /* Matches the search bar width */
   background-color: rgba(255, 255, 255, 0.7); /* Slight transparency for background */
