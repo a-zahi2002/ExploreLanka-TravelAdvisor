@@ -1,4 +1,4 @@
-import React from "react";
+import react from "react";
 import { SearchProvider } from "./SearchContext";
 import "./App.css";
 import TileGrid from "./TileGrid";

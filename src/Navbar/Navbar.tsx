@@ -1,7 +1,13 @@
+import "./Navbar.css";
+import logo from"./long_logo.png";
+
+const Navbar=()=>{
+return(
+<header>
 <nav className="nav-bar">
   <a href="#" className="logo">
     <img src={logo} alt="Logo" />
-  </a>
+  </a><br></br><br></br>
   <ul className="nav-menu">
     <li>
       <button className="nav-button"><a href="#">Home</a></button>
@@ -17,3 +23,7 @@
     </li>
   </ul>
 </nav>
+</header>
+);
+};
+export default Navbar;

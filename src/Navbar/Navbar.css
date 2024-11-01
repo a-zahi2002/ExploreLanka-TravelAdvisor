@@ -6,19 +6,18 @@ body {
 
 /* Navigation Bar Styles */
 .nav-bar {
-    background: linear-gradient(90deg, #4e54c8, #8f94fb); /* Blue to Purple Gradient */
     width: 100%; /* Ensure it spans the full width */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
     display: flex; /* Flexbox for alignment */
-    justify-content: space-between; /* Space between logo and menu */
-    align-items: center; /* Center items vertically */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
     padding: 15px 20px; /* Padding for the navbar */
 }
 
 .logo {
-    flex: 1; /* Allow it to grow */
     display: flex; /* Use flexbox for alignment */
     justify-content: center; /* Center the logo */
+    margin-bottom: 10px; /* Space between logo and menu */
 }
 
 .logo img {
@@ -33,7 +32,6 @@ body {
     justify-content: center; /* Center the menu items */
     margin: 0; /* Reset margin */
     padding: 0;
-    flex: 1; /* Allow menu to take available space */
 }
 
 .nav-menu li {
