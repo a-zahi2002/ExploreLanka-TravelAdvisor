@@ -1,3 +1,4 @@
+// SearchContext.tsx
 import { createContext, useState, ReactNode } from "react";
 
 interface TileData {
@@ -13,7 +14,7 @@ interface SearchContextProps {
   setTileData: (data: TileData[]) => void;
 }
 
-const defaultTileData: TileData[] = []; // Initialize with an empty array to avoid potential issues
+const defaultTileData: TileData[] = [];
 const SearchContext = createContext<SearchContextProps>({
   searchQuery: "",
   setSearchQuery: () => {},
