@@ -26,7 +26,9 @@ const Page7Sub22: React.FC = () => {
       <div className="additional-details">
             <h3>Travel Information</h3>
             <ul>
-              <li>Location: Vavuniya</li>
+
+              <li>Location: Vavuniya, Sri Lanka</li>
+
               <li>Best Time to Visit: Anytime</li>
                 <a
                   href="https://maps.app.goo.gl/c2xHJUH1uS8FEoV26"
