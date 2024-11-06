@@ -51,9 +51,7 @@ const Page4Sub1: React.FC = () => {
           popular activity among visitors. Despite its age, the Nine Arches
           Railway Bridge continues to serve as a vital transportation link,
           carrying both passengers and goods across the rugged terrain of Sri
-          Lanka's hill country. Its enduring presence stands as a testament to
-          the enduring legacy of colonial-era engineering and the timeless
-          beauty of the island's natural landscapes.
+          Lanka's hill country.
         </p>
       </div>
       <div className="additional-details">
