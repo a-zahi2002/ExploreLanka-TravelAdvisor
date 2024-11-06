@@ -1,11 +1,28 @@
 import React from "react";
 import "../Pages_sub1.css";
+import Porawagala1 from "/src/uva img/porawagala1.png";
+import Porawagala2 from "/src/uva img/porawagala2.png";
+import Porawagala3 from "/src/uva img/porawagala3.png";
 
 const Page4Sub6: React.FC = () => {
+  const handleClose = () => {
+    console.log("Page closed");
+    window.history.back();
+  };
   return (
-    <div className="pages_sub1">
+    <div className="subpage-container">
       <div className="content-container">
+      <button className="close-button" onClick={handleClose}>
+          ✕
+        </button>
         <h1>Porawagala View Point</h1>
+        <div className="image-section">
+          <img src={Porawagala1} alt="Porawagala View Point  View 01" />
+          <img src={Porawagala2} alt="Porawagala View Point  View 02" />
+          <img src={Porawagala3} alt="Porawagala View Point  View 03" />
+        </div>
+        <div className="lower-section">
+        <div className="description">
         <p>
         Porawagala View Point is a breathtaking natural vantage point located near the town of Bandarawela in 
 the central highlands of Sri Lanka. Perched atop a rugged hilltop, Porawagala offers visitors panoramic 
@@ -24,6 +41,31 @@ monkeys. One of the best times to visit Porawagala View Point is at sunrise or s
 painted in hues of pink, orange, and gold, casting a warm glow over the landscape
     
         </p>
+      </div>
+      <div className="additional-details">
+            <h3>Travel Information</h3>
+            <ul>
+              <li>Location: Badulla, Sri Lanka</li>
+              <li>Best Time to Visit: January to April</li>
+              <li>
+                <a
+                  href="https://maps.app.goo.gl/6hjLWE9DRbJFsu8fA"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View on Google Maps
+                </a>
+              </li>
+            </ul>
+            <h3>Nearby Attractions</h3>
+            <ul>
+              <li>Thangamale Bird Sanctuary </li>
+              <li>Bambarakanda Falls </li>
+              <li>Ella   </li>
+              
+            </ul>
+          </div>
+    </div>
       </div>
     </div>
   );
