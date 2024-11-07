@@ -1,11 +1,29 @@
 import React from "react";
 import "../Pages_sub1.css";
-
+import nineArches1 from "/src/uva img/nineArches1.png";
+import nineArches2 from "/src/uva img/nineArches2.png";
+import nineArches3 from "/src/uva img/nineArches3.png";
 const Page4Sub1: React.FC = () => {
+  const handleClose = () => {
+    
+    console.log("Page closed");
+    window.history.back(); 
+  };
   return (
-    <div className="pages_sub1">
+    <div className="subpage-container">
+      {" "}
       <div className="content-container">
+      <button className="close-button" onClick={handleClose}>
+          ✕
+        </button>
         <h1>Nine Arches Railway Bridge</h1>
+        <div className="image-section">
+          <img src={nineArches1} alt="NineArches View 1" />
+          <img src={nineArches2} alt="NineArches View 2" />
+          <img src={nineArches3} alt="NineArches View 3" />
+        </div>
+        <div className="lower-section">
+        <div className="description">
         <p>
           The Nine Arches Railway Bridge, also known as the Demodara Bridge, is
           an iconic architectural marvel located in the Ella region of Sri
@@ -33,11 +51,33 @@ const Page4Sub1: React.FC = () => {
           popular activity among visitors. Despite its age, the Nine Arches
           Railway Bridge continues to serve as a vital transportation link,
           carrying both passengers and goods across the rugged terrain of Sri
-          Lanka's hill country. Its enduring presence stands as a testament to
-          the enduring legacy of colonial-era engineering and the timeless
-          beauty of the island's natural landscapes.
+          Lanka's hill country.
         </p>
       </div>
+      <div className="additional-details">
+            <h3>Travel Information</h3>
+            <ul>
+              <li>Location: Badulla, Sri Lanka</li>
+              <li>Best Time to Visit: January to May</li>
+              <li>
+                <a
+                  href="https://maps.app.goo.gl/5rk5DLwcquukTpuP7"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View on Google Maps
+                </a>
+              </li>
+            </ul>
+            <h3>Nearby Attractions</h3>
+            <ul>
+              <li>Ella Rock trail</li>
+              <li>Ravana Falls</li>
+              <li>Diyaluma Falls</li>
+            </ul>
+    </div>
+    </div>
+    </div>
     </div>
   );
 };
