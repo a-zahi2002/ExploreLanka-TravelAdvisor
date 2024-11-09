@@ -1,6 +1,6 @@
 .page {
   max-width: 90%;
-  margin: 0 auto; /* Centers the element */
+  margin: 0 auto; 
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.527);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -19,11 +19,11 @@
 .page button {
   background-color: #4CAF50;
   color: #fff;
-  padding: 15px 30px; /* Increased padding for larger buttons */
+  padding: 15px 30px; 
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 18px; /* Optional: Increase font size for better readability */
+  font-size: 18px; 
 }
 
 .page button:hover {
@@ -36,15 +36,18 @@
 }
 
 .topic {
-  width: 1000px;
-  margin: 0 auto;            
-  padding: 10px;            
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
   text-align: center;
   border-radius: 25px;
   font-family: 'Comic Sans MS', cursive, sans-serif;
-  color: #068b27; 
-  font-size: xxx-large;  
+  color: #068b27;
+  font-size: clamp(24px, 5vw, 48px); /* Minimum 24px, responsive in between, max 48px */
 }
+
+
 
 .paragraph {
   font-family: serif;
