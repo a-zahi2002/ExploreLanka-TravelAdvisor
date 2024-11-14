@@ -74,3 +74,53 @@
   background-color: rgba(70, 201, 116, 0.8); /* Slight transparency for hover background */
   color: white; /* Text changes to white on hover */
 }
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  /* Tablet view */
+  .search-bar-container {
+    width: 90%;
+  }
+
+  .search-bar {
+    padding: 8px;
+  }
+
+  .search-bar input {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+
+  .search-bar button {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+
+  .suggestions-dropdown {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Mobile view */
+  .search-bar-container {
+    width: 100%;
+  }
+
+  .search-bar {
+    flex-direction: column; /* Stack input and button vertically */
+    align-items: stretch;
+    padding: 6px;
+  }
+
+  .search-bar input,
+  .search-bar button {
+    width: 100%; /* Full width for input and button */
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+
+  .suggestions-dropdown {
+    font-size: 12px;
+  }
+}
+
