@@ -1,64 +1,54 @@
 # ExploreLanka Travel Advisor
 
-ExploreLanka Travel Advisor is a comprehensive travel guide application designed to help users explore the beauty of Sri Lanka. It provides personalized recommendations, travel tips, and detailed information about destinations, accommodations, and activities.
+ExploreLanka Travel Advisor is a project designed to help users explore and plan their travels in Sri Lanka. This application provides recommendations, travel guides, and other useful features to enhance the travel experience.
 
 ## Features
-
-- **Destination Guides**: Detailed information about popular destinations in Sri Lanka.
-- **Personalized Recommendations**: Tailored suggestions based on user preferences.
-- **Accommodation Finder**: Search and book hotels, resorts, and homestays.
-- **Activity Planner**: Discover and plan activities like hiking, surfing, and cultural tours.
-- **Travel Tips**: Essential advice for a safe and enjoyable trip.
+- Discover popular destinations in Sri Lanka.
+- Get personalized travel recommendations.
+- Access detailed travel guides and itineraries.
+- User-friendly interface for seamless navigation.
 
 ## Installation
 
 1. Clone the repository:
   ```bash
-  git clone https://github.com/a-zahi2002/ExploreLanka-TravelAdvisor.git
-  ```
-2. Navigate to the project directory:
-  ```bash
+  git clone https://github.com/your-username/ExploreLanka-TravelAdvisor.git
   cd ExploreLanka-TravelAdvisor
   ```
-3. Install dependencies:
+
+2. Install dependencies:
   ```bash
   npm install
   ```
-4. Start the application:
+
+3. Start the application:
   ```bash
-  npm start
+  npm run dev
   ```
 
-## Technologies Used
+## Scripts
 
-- **Frontend**: React, Tailwind CSS
-- **Backend**: Node.js, Express
-- **Database**: MongoDB
-- **APIs**: Google Maps API, OpenWeather API
+The following scripts are available in the `package.json`:
+
+- `npm run dev`: Starts the application in development mode.
+- `npm run build`: Builds the application for production.
+- `npm test`: Runs the test suite.
+- `npm run lint`: Lints the codebase.
+
+## Project Structure
+
+- **src/**: Contains the source code for the application.
+- **public/**: Contains static assets and the main HTML file.
+- **package.json**: Manages dependencies and scripts.
 
 ## Contributing
 
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch:
-  ```bash
-  git checkout -b feature-name
-  ```
-3. Commit your changes:
-  ```bash
-  git commit -m "Add feature-name"
-  ```
-4. Push to the branch:
-  ```bash
-  git push origin feature-name
-  ```
-5. Open a pull request.
+Contributions are welcome! Please fork the repository and submit a pull request.
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Contact
+## Acknowledgments
 
-For questions or feedback, please contact us at [a.zahi2002@gmail.com](mailto:a.zahi2002@gmail.com).
+Special thanks to all contributors and the open-source community for their support.
