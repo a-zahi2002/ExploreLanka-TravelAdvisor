@@ -1,50 +1,64 @@
-# React + TypeScript + Vite
+# ExploreLanka Travel Advisor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ExploreLanka Travel Advisor is a comprehensive travel guide application designed to help users explore the beauty of Sri Lanka. It provides personalized recommendations, travel tips, and detailed information about destinations, accommodations, and activities.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Destination Guides**: Detailed information about popular destinations in Sri Lanka.
+- **Personalized Recommendations**: Tailored suggestions based on user preferences.
+- **Accommodation Finder**: Search and book hotels, resorts, and homestays.
+- **Activity Planner**: Discover and plan activities like hiking, surfing, and cultural tours.
+- **Travel Tips**: Essential advice for a safe and enjoyable trip.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clone the repository:
+  ```bash
+  git clone https://github.com/a-zahi2002/ExploreLanka-TravelAdvisor.git
+  ```
+2. Navigate to the project directory:
+  ```bash
+  cd ExploreLanka-TravelAdvisor
+  ```
+3. Install dependencies:
+  ```bash
+  npm install
+  ```
+4. Start the application:
+  ```bash
+  npm start
+  ```
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies Used
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **Frontend**: React, Tailwind CSS
+- **Backend**: Node.js, Express
+- **Database**: MongoDB
+- **APIs**: Google Maps API, OpenWeather API
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Contributing
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Contributions are welcome! Please follow these steps:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1. Fork the repository.
+2. Create a new branch:
+  ```bash
+  git checkout -b feature-name
+  ```
+3. Commit your changes:
+  ```bash
+  git commit -m "Add feature-name"
+  ```
+4. Push to the branch:
+  ```bash
+  git push origin feature-name
+  ```
+5. Open a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+
+For questions or feedback, please contact us at [a.zahi2002@gmail.com](mailto:a.zahi2002@gmail.com).
